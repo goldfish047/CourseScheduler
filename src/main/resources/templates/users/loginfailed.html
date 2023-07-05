@@ -26,7 +26,7 @@
             padding: 10px; 
             border-radius: 20px;
             max-width: 700px;
-            height: 420px;
+            height: 450px;
             margin: 0 auto;
         
         }
@@ -35,6 +35,9 @@
             transform-origin: top center;        }
         h1{
             color: white;
+        }
+        .error-message {
+            color: red;
         }
         
     </style>
@@ -59,12 +62,16 @@
                                 <form method="post" action="/login">
                                     <input type="text" name="name" id="name" class="form-control my-4 py-2" placeholder="Username"/>
                                     <input type="password" name="password" id="password" class="form-control my-4 py-2" placeholder="Password"/>
+                                    <div class="error-message" id="error-message">
+                                        Invalid username or password.
+                                    </div>
                                     <div class="text-center mt-3">
                                         <button class="btn btn-success">Login</button>
                                     </div>
                                     <div class="text-center mt-3">
                                         <a href="/add">Create an account</a>
                                     </div>
+                                    
                                 </form>
                             </div>
                         </div>

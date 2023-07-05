@@ -31,15 +31,22 @@ public class UsersController {
 }
 
     @PostMapping("users/add")
-    public String addUser(@RequestParam Map<String, String> newuser, HttpServletResponse response, Model model){
-        System.out.println("ADD user");
-        String newName = newuser.get("name");
-        String newPwd = newuser.get("password");
-        userRepo.save(new User(newName,newPwd));
-        response.setStatus(201);
-        model.addAttribute("name", newName); ;
-        return "users/addedUser";
+public String addUser(@RequestParam Map<String, String> newuser, HttpServletResponse response, Model model) {
+    String newName = newuser.get("name");
+    String newPwd = newuser.get("password");
+    
+    // Check if the username already exists in the database if yes bring to another page
+    List<User> existingUsers = userRepo.findByName(newName);
+    if (!existingUsers.isEmpty()) {
+        return "users/usertaken";
     }
+    
+    // Save the new user to the database
+    userRepo.save(new User(newName, newPwd));
+    response.setStatus(201);
+    model.addAttribute("name", newName);
+    return "users/addedUser";
+}
 
     @GetMapping("/view")
     public String getAllUsers(Model model){
@@ -75,7 +82,7 @@ public class UsersController {
         String pwd = formData.get("password");
         List<User> userlist = userRepo.findByNameAndPassword(name, pwd);
         if (userlist.isEmpty()){
-            return "users/login";
+            return "users/loginfailed";
         }
         else {
             // success
@@ -91,5 +98,5 @@ public class UsersController {
         request.getSession().invalidate();
         return "users/login";
     }
-
+    
 }

@@ -66,6 +66,12 @@
           left: -35px;
           content: "❌";
         }
+        .error-message {
+            color: red;
+        }
+        .error-border {
+            border: 1px solid red;
+        }
         </style>
 </head>
 <body>
@@ -78,7 +84,11 @@
                     <div class="card">
                         <div class="card-body">
                             <form action="/users/add" method="post">
-                                <input type="text" name="name" id="name" class="form-control my-4 py-2" placeholder = "Username"/>
+                                
+                                <input type="text" name="name" id="name" class="form-control my-4 py-2 error-border" placeholder = "Username"/>
+                                <div class="error-message" id="error-message">
+                                    Invalid username
+                                </div>
                                 <input type="password" name="password" id="password" class="form-control my-4 py-2" 
                                 placeholder = "Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                                 <div  class="text-center mt-3">
@@ -104,6 +114,16 @@
 </body>
 
 <script>
+    // Remove the red border
+    var inputElement = document.getElementById("name");
+    inputElement.addEventListener("input", function() {
+        if (inputElement.value.trim() !== "") {
+            inputElement.classList.remove("error-border");
+        } else {
+            inputElement.classList.add("error-border");
+        }
+    });
+    
     var myInput = document.getElementById("password");
     var letter = document.getElementById("letter");
     var capital = document.getElementById("capital");
