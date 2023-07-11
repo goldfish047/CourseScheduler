@@ -65,6 +65,7 @@
 			<scope>runtime</scope>
 		</dependency>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
 
@@ -239,6 +240,10 @@
 	</dependencies>
 
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+	</dependencies>
+
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
 	<build>
 		<plugins>
 			<plugin>

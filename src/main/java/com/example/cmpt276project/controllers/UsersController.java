@@ -1,11 +1,14 @@
 package com.example.cmpt276project.controllers;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import java.io.IOException;
 import java.io.InputStream;
 import java.security.GeneralSecurityException;
 =======
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
 import java.util.List;
 import java.util.Map;
 
@@ -20,16 +23,20 @@ import org.springframework.web.servlet.view.RedirectView;
 import com.example.cmpt276project.models.User;
 import com.example.cmpt276project.models.UserRepository;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.google.api.client.googleapis.javanet.GoogleNetHttpTransport;
 import com.google.api.client.http.HttpTransport;
 import com.google.api.services.calendar.CalendarScopes;
 =======
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 import com.google.api.client.json.JsonFactory;
@@ -115,6 +122,8 @@ public String showCalendar(Model model) {
         response.setStatus(201);
         model.addAttribute("name", newName);
 =======
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
 @Controller
 public class UsersController {  
     
@@ -135,16 +144,23 @@ public class UsersController {
         userRepo.save(new User(newName,newPwd));
         response.setStatus(201);
         model.addAttribute("name", newName); ;
+<<<<<<< HEAD
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
         return "users/addedUser";
     }
 
     @GetMapping("/view")
 <<<<<<< HEAD
+<<<<<<< HEAD
     public String getAllUsers(Model model) {
 =======
     public String getAllUsers(Model model){
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+    public String getAllUsers(Model model){
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
         System.out.println("Getting all users");
         // get all users from database
         List<User> users = userRepo.findAll();
@@ -155,14 +171,19 @@ public class UsersController {
 
     @GetMapping("/")
 <<<<<<< HEAD
+<<<<<<< HEAD
     public RedirectView process() {
 =======
     public RedirectView process(){
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+    public RedirectView process(){
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
         return new RedirectView("login");
     }
 
     @GetMapping("/login")
+<<<<<<< HEAD
 <<<<<<< HEAD
     public String getLogin(Model model, HttpServletRequest request, HttpSession session) {
         User user = (User) session.getAttribute("session_user");
@@ -171,6 +192,8 @@ public class UsersController {
         } else {
             model.addAttribute("user", user);
 =======
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
     public String getLogin(Model model, HttpServletRequest request, HttpSession session){
         User user = (User) session.getAttribute("session_user");
         if (user == null){
@@ -178,32 +201,45 @@ public class UsersController {
         }
         else {
             model.addAttribute("user",user);
+<<<<<<< HEAD
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
             return "users/protected";
         }
     }
 
     @PostMapping("/login")
 <<<<<<< HEAD
+<<<<<<< HEAD
     public String login(@RequestParam Map<String, String> formData, Model model, HttpServletRequest request,
             HttpSession session) {
 =======
     public String login(@RequestParam Map<String,String> formData, Model model, HttpServletRequest request, HttpSession session){
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+    public String login(@RequestParam Map<String,String> formData, Model model, HttpServletRequest request, HttpSession session){
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
         // processing login
         String name = formData.get("name");
         String pwd = formData.get("password");
         List<User> userlist = userRepo.findByNameAndPassword(name, pwd);
 <<<<<<< HEAD
+<<<<<<< HEAD
         if (userlist.isEmpty()) {
             return "users/loginfailed";
         } else {
 =======
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
         if (userlist.isEmpty()){
             return "users/login";
         }
         else {
+<<<<<<< HEAD
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
             // success
             User user = userlist.get(0);
             request.getSession().setAttribute("session_user", user);
@@ -214,6 +250,7 @@ public class UsersController {
 
     @GetMapping("/logout")
 <<<<<<< HEAD
+<<<<<<< HEAD
     public String destroySession(HttpServletRequest request) {
         request.getSession().invalidate();
         return "users/login";
@@ -222,6 +259,11 @@ public class UsersController {
         request.getSession().invalidate();
         return "/users/login";
 >>>>>>> d906940eec989227cb80ba372fae3a853575aebc
+=======
+    public String destroySession(HttpServletRequest request){
+        request.getSession().invalidate();
+        return "/users/login";
+>>>>>>> f2de18d1a0101831cbc76e73ddc61f35641cf223
     }
 
 }
