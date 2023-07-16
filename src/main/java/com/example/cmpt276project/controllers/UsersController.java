@@ -98,5 +98,10 @@ public String addUser(@RequestParam Map<String, String> newuser, HttpServletResp
         request.getSession().invalidate();
         return "users/login";
     }
+
+    @GetMapping("/timetable")
+    public String timetable() {
+        return "users/timetable";
+    }
     
 }
