@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weekly Timetable</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" th:href="@{../timetable.css}">
+    <link rel="stylesheet" th:href="@{../pagebutton.css}">
+    <script th:src="@{../timetable.js}" defer></script>
+    </link>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/login">
+                <img style="width:100px; height: 40px;" src="../fic2.png" />
+                <img style="position:relative; bottom:8px; width:150px; height: 60px;" src="../sfu.png" />
+            </a>
+            <a href="/login" class="btn btn-primary" role="button">
+                <i class="fas fa-home"></i> Home
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="btn-group d-flex justify-content-center mt-3" role="group" aria-label="Button Group">
+        <a href="/timetable" class="btn btn-primary my-custom-button mx-3 active">Timetable</a>
+        <a href="#" class="btn btn-primary my-custom-button mx-3">Course 1</a>
+        <a href="#" class="btn btn-primary my-custom-button mx-3">Course 2</a>
+        <a href="#" class="btn btn-primary my-custom-button mx-3">Course 3</a>
+        <a href="#" class="btn btn-primary my-custom-button mx-3">Course 4</a>
+    </div>
+
+    <div class="box">
+        <form name="search" for="search-input">
+            <input type="text" id="search-input" class="input" name="txt" placeholder="Search">
+        </form>
+        <i class="fas fa-search"></i>
+    </div>
+    <div id="checkbox-container">
+        <table>
+
+            <tr>
+                <td><label for="filter-checkbox">AM -- Monday</label>
+                    <input type="checkbox" id="filter-checkbox">
+                </td>
+                <td><label for="filter-checkbox4">AM -- Tuesday</label>
+                    <input type="checkbox" id="filter-checkbox4">
+                </td>
+                <td><label for="filter-checkbox7">AM -- Wednesday</label>
+                    <input type="checkbox" id="filter-checkbox7">
+                </td>
+                <td><label for="filter-checkbox10">AM -- Thursday</label>
+                    <input type="checkbox" id="filter-checkbox10">
+                </td>
+                <td><label for="filter-checkbox13">AM -- Friday</label>
+                    <input type="checkbox" id="filter-checkbox13">
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="filter-checkbox2">PM -- Monday</label>
+                    <input type="checkbox" id="filter-checkbox2">
+                </td>
+                <td> <label for="filter-checkbox5">PM -- Tuesday</label>
+                    <input type="checkbox" id="filter-checkbox5">
+                </td>
+                <td><label for="filter-checkbox8">PM -- Wednesday</label>
+                    <input type="checkbox" id="filter-checkbox8">
+                </td>
+                <td><label for="filter-checkbox11">PM -- Thursday</label>
+                    <input type="checkbox" id="filter-checkbox11">
+                </td>
+                <td><label for="filter-checkbox14">PM -- Friday</label>
+                    <input type="checkbox" id="filter-checkbox14">
+                </td>
+            </tr>
+            <tr>
+                <td> <label for="filter-checkbox3">EVE -- Monday</label>
+                    <input type="checkbox" id="filter-checkbox3">
+                </td>
+                <td><label for="filter-checkbox6">EVE -- Tuesday</label>
+                    <input type="checkbox" id="filter-checkbox6">
+                </td>
+                <td><label for="filter-checkbox9">EVE -- Wednesday</label>
+                    <input type="checkbox" id="filter-checkbox9">
+                </td>
+                <td><label for="filter-checkbox12">EVE -- Thursday</label>
+                    <input type="checkbox" id="filter-checkbox12">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+
+
+
+    <table id="timetable">
+        <thead>
+            <tr id="header-row"></tr>
+        </thead>
+        <tbody id="timetable-body"></tbody>
+    </table>
+
+
+</body>
+
+
+</html>
