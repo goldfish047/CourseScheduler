@@ -5,11 +5,13 @@ import jakarta.persistence.*;
 @Entity
 @Table(name="profs")
 public class Prof {
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int pid; 
+    // @Id
+    // @GeneratedValue(strategy = GenerationType.IDENTITY)
+    // private int pid; 
     // boolean variables that indicate whether or not the professor is available 
     // in the specified time slot. (False = unavailable, True = available)
+    private int profNum;
+
     private boolean eve_mon; 
     private boolean pm_mon; 
     private boolean am_mon; 
@@ -38,10 +40,10 @@ public class Prof {
     }
 
 
-    public Prof(int pid, boolean eve_mon, boolean pm_mon, boolean am_mon, boolean eve_tues, boolean pm_tues,
+    public Prof(int profNum, boolean eve_mon, boolean pm_mon, boolean am_mon, boolean eve_tues, boolean pm_tues,
             boolean am_tues, boolean eve_weds, boolean pm_weds, boolean am_weds, boolean eve_thurs, boolean pm_thurs,
             boolean am_thurs, boolean pm_fri, boolean am_fri, int howManyClass) {
-        this.pid = pid;
+        this.profNum = profNum;
         this.eve_mon = eve_mon;
         this.pm_mon = pm_mon;
         this.am_mon = am_mon;
@@ -60,13 +62,13 @@ public class Prof {
     }
 
 
-    public int getPid() {
-        return pid;
+    public int getProfNum() {
+        return profNum;
     }
 
 
-    public void setPid(int pid) {
-        this.pid = pid;
+    public void setProfNum(int profNum) {
+        this.profNum = profNum;
     }
 
 
@@ -218,7 +220,6 @@ public class Prof {
     public void setHowManyClass(int howManyClass) {
         this.howManyClass = howManyClass;
     }
-    
 
 
 
