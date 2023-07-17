@@ -103,5 +103,9 @@ public String addUser(@RequestParam Map<String, String> newuser, HttpServletResp
     public String timetable() {
         return "users/timetable";
     }
+    @GetMapping("/course1")
+    public String course1() {
+        return "users/course1";
+    }
     
 }
