@@ -115,14 +115,14 @@ public class UsersController {
         return "redirect:/";
     }
 
-    @GetMapping("/timetable")
+    @GetMapping("/availability")
     public String timetable(Model model, HttpSession session) {
         User user = (User) session.getAttribute("session_user");
         if (user == null) {
             return "redirect:/login";
         } else {
             model.addAttribute("user", user);
-            return "users/timetable";
+            return "users/availability";
         }
     }
 
