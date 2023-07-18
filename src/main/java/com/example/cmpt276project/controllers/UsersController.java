@@ -104,7 +104,11 @@ public String showCalendar(Model model) {
         }
 
         // Save the new user to the database
-        userRepo.save(new User(newName, newPwd));
+        User newU = new User();
+        newU.setName(newName);
+        newU.setPassword(newPwd);
+
+        userRepo.save(newU);
         response.setStatus(201);
         model.addAttribute("name", newName);
         return "users/addedUser";
