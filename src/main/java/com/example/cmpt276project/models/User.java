@@ -1,7 +1,5 @@
 package com.example.cmpt276project.models;
 
-import java.util.Scanner;
-
 import jakarta.persistence.*;
 
 @Entity
