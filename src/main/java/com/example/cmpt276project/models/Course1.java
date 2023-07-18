@@ -5,7 +5,8 @@ import jakarta.persistence.*;
 @Entity
 @Table(name="couse1")
 public class Course1 {
-    
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String name; 
 
     private int section; 

@@ -5,8 +5,8 @@ import jakarta.persistence.*;
 @Entity
 @Table(name="profs")
 public class Prof {
-    // @Id
-    // @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     // private int pid; 
     // boolean variables that indicate whether or not the professor is available 
     // in the specified time slot. (False = unavailable, True = available)

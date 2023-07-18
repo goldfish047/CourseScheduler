@@ -1,24 +1,14 @@
-package com.example.cmpt276project;
+package course_scheduler.cmpt276;
+
+import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.ContextConfiguration;
-// import static org.junit.Assert.assertTrue;
-// import static org.junit.Assert.fail;
-import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import com.example.cmpt276project.models.User;
 
-// @RunWith(SpringJUnit4ClassRunner.class)
-// @WebIntegrationTest
-
 @SpringBootTest
-class Cmpt276projectApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
+class Cmpt276ApplicationTests {
 
 	@Test 
 	void registerWithInvalidPass(){
@@ -27,21 +17,20 @@ class Cmpt276projectApplicationTests {
 		try{	
 			newUser.setName("Frank");
 			newUser.setPassword("123");
-
+			fail();
 		}
 		catch (IllegalArgumentException e){
 
 		}
 
 	}
-
 	@Test 
 	void registerWithValidPass(){
 		User newUser = new User();
 		try{
 			newUser.setName("Frank");
 			newUser.setPassword("A2$aaaaaa");
-
+			
 		}
 		catch(IllegalArgumentException e){
 
@@ -55,12 +44,11 @@ class Cmpt276projectApplicationTests {
 		try{
 			newUser.setName("");
 			newUser.setPassword("A2$aaaaaa");
+			fail();
 		}
 		catch(IllegalArgumentException e){
 
 		}		
 		
 	}
-
-
 }
