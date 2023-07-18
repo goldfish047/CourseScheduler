@@ -19,37 +19,38 @@ import jakarta.servlet.http.HttpServletResponse;
 import jakarta.servlet.http.HttpSession;
 
 @Controller
-public class UsersController {  
-    
+public class UsersController {
+
     @Autowired
     private UserRepository userRepo;
 
     @GetMapping("/add")
     public String addUser(Model model) {
-    model.addAttribute("user", new User());
-    return "users/add";
-}
+        model.addAttribute("user", new User());
+        return "users/add";
+    }
 
     @PostMapping("users/add")
-public String addUser(@RequestParam Map<String, String> newuser, HttpServletResponse response, Model model) {
-    String newName = newuser.get("name");
-    String newPwd = newuser.get("password");
-    
-    // Check if the username already exists in the database if yes bring to another page
-    List<User> existingUsers = userRepo.findByName(newName);
-    if (!existingUsers.isEmpty()) {
-        return "users/usertaken";
+    public String addUser(@RequestParam Map<String, String> newuser, HttpServletResponse response, Model model) {
+        String newName = newuser.get("name");
+        String newPwd = newuser.get("password");
+
+        // Check if the username already exists in the database if yes bring to another
+        // page
+        List<User> existingUsers = userRepo.findByName(newName);
+        if (!existingUsers.isEmpty()) {
+            return "users/usertaken";
+        }
+
+        // Save the new user to the database
+        userRepo.save(new User(newName, newPwd));
+        response.setStatus(201);
+        model.addAttribute("name", newName);
+        return "users/addedUser";
     }
-    
-    // Save the new user to the database
-    userRepo.save(new User(newName, newPwd));
-    response.setStatus(201);
-    model.addAttribute("name", newName);
-    return "users/addedUser";
-}
 
     @GetMapping("/view")
-    public String getAllUsers(Model model){
+    public String getAllUsers(Model model) {
         System.out.println("Getting all users");
         // get all users from database
         List<User> users = userRepo.findAll();
@@ -59,53 +60,81 @@ public String addUser(@RequestParam Map<String, String> newuser, HttpServletResp
     }
 
     @GetMapping("/")
-    public RedirectView process(){
+    public RedirectView process() {
         return new RedirectView("login");
     }
 
     @GetMapping("/login")
-    public String getLogin(Model model, HttpServletRequest request, HttpSession session){
+    public String getLogin(Model model, HttpServletRequest request, HttpSession session) {
         User user = (User) session.getAttribute("session_user");
-        if (user == null){
+        if (user == null) {
             return "users/login";
-        }
-        else {
-            model.addAttribute("user",user);
-            return "users/protected";
+        } else {
+            model.addAttribute("user", user);
+            return "redirect:/protected";
         }
     }
 
     @PostMapping("/login")
-    public String login(@RequestParam Map<String,String> formData, Model model, HttpServletRequest request, HttpSession session){
-        // processing login
+    public String login(@RequestParam Map<String, String> formData, Model model, HttpServletRequest request,
+            HttpSession session) {
         String name = formData.get("name");
-        String pwd = formData.get("password");
-        List<User> userlist = userRepo.findByNameAndPassword(name, pwd);
-        if (userlist.isEmpty()){
-            return "users/loginfailed";
-        }
-        else {
-            // success
-            User user = userlist.get(0);
+        String password = formData.get("password");
+        List<User> users = userRepo.findByNameAndPassword(name, password);
+        if (users.isEmpty()) {
+            model.addAttribute("loginError", true);
+            return "users/login";
+        } else {
+            User user = users.get(0);
             request.getSession().setAttribute("session_user", user);
+            return "redirect:/protected";
+        }
+    }
+
+    @GetMapping("/protected")
+    public String protectedPage(Model model, HttpSession session) {
+        User user = (User) session.getAttribute("session_user");
+        if (user == null) {
+            return "redirect:/login";
+        } else {
             model.addAttribute("user", user);
             return "users/protected";
         }
     }
 
     @GetMapping("/logout")
-    public String destroySession(HttpServletRequest request){
-        request.getSession().invalidate();
-        return "users/login";
+    public String destroySession(HttpServletRequest request, HttpServletResponse response, HttpSession session) {
+        if (session != null) {
+            // Disable caching
+            response.setHeader("Pragma", "no-cache");
+            response.setHeader("Cache-Control", "no-cache");
+            response.setDateHeader("Expires", 0);
+            request.getSession().removeAttribute("session_user");
+            session.invalidate();
+        }
+        return "redirect:/";
     }
 
     @GetMapping("/timetable")
-    public String timetable() {
-        return "users/timetable";
+    public String timetable(Model model, HttpSession session) {
+        User user = (User) session.getAttribute("session_user");
+        if (user == null) {
+            return "redirect:/login";
+        } else {
+            model.addAttribute("user", user);
+            return "users/timetable";
+        }
     }
+
     @GetMapping("/course1")
-    public String course1() {
-        return "users/course1";
+    public String course1(Model model, HttpSession session) {
+        User user = (User) session.getAttribute("session_user");
+        if (user == null) {
+            return "redirect:/login";
+        } else {
+            model.addAttribute("user", user);
+            return "users/course1";
+        }
     }
-    
+
 }
