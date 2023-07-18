@@ -5,8 +5,121 @@
     <title>Welcome!</title>
     <link rel="stylesheet" th:href="@{../success.css}">
     <link rel="stylesheet" th:href="@{../pagebutton.css}">
-
     <script th:src="@{../success.js}" defer></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2C3sEayOBegh33XQS8lrhdpav8sTL6eE"></script>
+    <script>
+        function initMap() {
+            var location = { lat: 49.27425869783508, lng: -122.91214805202142 };
+            var map = new google.maps.Map(document.getElementById('map_div'), {
+                center: location,
+                zoom: 16,
+                mapTypeId: 'roadmap',
+                styles: [
+      { elementType: "geometry", stylers: [{ color: "#242f3e" }] },
+      { elementType: "labels.text.stroke", stylers: [{ color: "#242f3e" }] },
+      { elementType: "labels.text.fill", stylers: [{ color: "#746855" }] },
+      {
+        featureType: "administrative.locality",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#d59563" }],
+      },
+      {
+        featureType: "poi",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#d59563" }],
+      },
+      {
+        featureType: "poi.park",
+        elementType: "geometry",
+        stylers: [{ color: "#263c3f" }],
+      },
+      {
+        featureType: "poi.park",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#6b9a76" }],
+      },
+      {
+        featureType: "road",
+        elementType: "geometry",
+        stylers: [{ color: "#38414e" }],
+      },
+      {
+        featureType: "road",
+        elementType: "geometry.stroke",
+        stylers: [{ color: "#212a37" }],
+      },
+      {
+        featureType: "road",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#9ca5b3" }],
+      },
+      {
+        featureType: "road.highway",
+        elementType: "geometry",
+        stylers: [{ color: "#746855" }],
+      },
+      {
+        featureType: "road.highway",
+        elementType: "geometry.stroke",
+        stylers: [{ color: "#1f2835" }],
+      },
+      {
+        featureType: "road.highway",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#f3d19c" }],
+      },
+      {
+        featureType: "transit",
+        elementType: "geometry",
+        stylers: [{ color: "#2f3948" }],
+      },
+      {
+        featureType: "transit.station",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#d59563" }],
+      },
+      {
+        featureType: "water",
+        elementType: "geometry",
+        stylers: [{ color: "#17263c" }],
+      },
+      {
+        featureType: "water",
+        elementType: "labels.text.fill",
+        stylers: [{ color: "#515c6d" }],
+      },
+      {
+        featureType: "water",
+        elementType: "labels.text.stroke",
+        stylers: [{ color: "#17263c" }],
+      },
+    ],
+            });
+
+            var marker = new google.maps.Marker({
+                position: location,
+                map: map,
+                title: '(FIC) Fraser International College'
+            });
+        }
+        window.onload = function () {
+            initMap();
+        };
+    </script>
+    
+    <style>
+        #map_div {
+            height: 700px;
+            width: 800px;
+            border-radius: 15px;
+            
+        }
+        h2{
+            padding-top: 50px;
+            color: white;
+        }
+    </style>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -44,6 +157,7 @@
 
         iframe {
             margin-top: 100px;
+            border-radius: 15px;
         }
 
         button.btn.btn-dark.d-flex.mx-auto {
@@ -57,38 +171,9 @@
         function redirectToCourseCatalogue() {
             window.location.href = 'https://www.fraseric.ca/academics/academic-planning/course-catalogue/';
         }
-        function preventBack() { window.history.forward(); }
-        setTimeout("preventBack()", 0);
-        window.onunload = function () { null };
+        
     </script>
 </head>
-
-<!-- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img style="width:100px; height: 40px;" src="../fic2.png" /><img
-                    style="position:relative; bottom:8px; width:150px; height: 60px;" src="../sfu.png" /></a>
-        </div>
-
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <button class="btn btn-dark d-flex mx-auto" onclick="redirectToCourseCatalogue()">
-            <span class="bi bi-search me-2"></span>Explore Courses
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto me-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="/logout">Logout</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav> -->
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container-fluid">
@@ -120,8 +205,11 @@
     <iframe
         src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&src=Y21wdDI3NmNzQGdtYWlsLmNvbQ&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043"
         style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
+    <h2>MAP</h2>
+    <div id="map_div"></div>
     <a href="/view">View all registered users</a>
+
+    
 </body>
 
 
