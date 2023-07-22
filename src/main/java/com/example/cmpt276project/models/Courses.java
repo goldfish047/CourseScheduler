@@ -10,6 +10,7 @@ public class Courses {
     private String name; 
 
     private int section; 
+    private int instructor_num;
 
     private boolean open = false; //boolean value that indicates whether a class has a prof assigned or not
     
@@ -156,6 +157,12 @@ public class Courses {
     }
     public void setAm_fri(boolean am_fri) {
         this.am_fri = am_fri;
+    }
+    public int getInstructor_num() {
+        return instructor_num;
+    }
+    public void setInstructor_num(int instructor_num) {
+        this.instructor_num = instructor_num;
     }
 
 
