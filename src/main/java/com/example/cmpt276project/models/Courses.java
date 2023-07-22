@@ -3,8 +3,8 @@ package com.example.cmpt276project.models;
 import jakarta.persistence.*;
 
 @Entity
-@Table(name="course3")
-public class Course3 {
+@Table(name="couse1")
+public class Courses {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private String name; 
@@ -32,9 +32,9 @@ public class Course3 {
 
     private boolean pm_fri;
     private boolean am_fri;
-    public Course3() {
+    public Courses() {
     }
-    public Course3(String name, int section, boolean open, boolean eve_mon, boolean pm_mon, boolean am_mon,
+    public Courses(String name, int section, boolean open, boolean eve_mon, boolean pm_mon, boolean am_mon,
             boolean eve_tues, boolean pm_tues, boolean am_tues, boolean eve_weds, boolean pm_weds, boolean am_weds,
             boolean eve_thurs, boolean pm_thurs, boolean am_thurs, boolean pm_fri, boolean am_fri) {
         this.name = name;
@@ -159,5 +159,5 @@ public class Course3 {
     }
 
 
- 
+    
 }
