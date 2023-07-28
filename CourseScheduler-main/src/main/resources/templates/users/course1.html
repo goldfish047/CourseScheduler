@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Course Availability</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" th:href="@{../course1.css}">
+    <link rel="stylesheet" th:href="@{../pagebutton.css}">
+    <script th:src="@{../course1.js}" defer></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/login">
+                <img style="width:100px; height: 40px;" src="../fic2.png" />
+                <img style="position:relative; bottom:8px; width:150px; height: 60px;" src="../sfu.png" />
+            </a>
+            <a href="/login" class="btn btn-primary" role="button">
+                <i class="fas fa-home"></i> Home
+            </a>
+
+            <a href="/logout" class="btn btn-danger" role="button" style="margin-left: 10px;">
+                <i class="fas fa-sign-out-alt"></i> Logout
+            </a>
+
+        </div>
+    </nav>
+
+    <div class="btn-group d-flex justify-content-center mt-3" role="group" aria-label="Button Group">
+        <a href="/availability" class="btn btn-primary my-custom-button mx-3">Availability</a>
+        <a href="#" class="btn btn-primary my-custom-button mx-3 active" >Course 1</a>
+    </div>
+    <div>
+        <label for="mondayCheckbox">Monday</label>
+        <input type="checkbox" id="mondayCheckbox" checked>
+    </div>
+    <div>
+        <label for="tuesdayCheckbox">Tuesday</label>
+        <input type="checkbox" id="tuesdayCheckbox" checked>
+    </div>
+    <div>
+        <label for="wednesdayCheckbox">Wednesday</label>
+        <input type="checkbox" id="wednesdayCheckbox" checked>
+    </div>
+    <div>
+        <label for="thursdayCheckbox">Thursday</label>
+        <input type="checkbox" id="thursdayCheckbox" checked>
+    </div>
+    <div>
+        <label for="fridayCheckbox">Friday</label>
+        <input type="checkbox" id="fridayCheckbox" checked>
+    </div>
+    <div>
+        <label for="tbaCheckbox">TBA</label>
+        <input type="checkbox" id="tbaCheckbox" checked>
+    </div>
+
+    <table id="scheduleTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th class="monday">Monday</th>
+                <th class="tuesday">Tuesday</th>
+                <th class="wednesday">Wednesday</th>
+                <th class="thursday">Thursday</th>
+                <th class="friday">Friday</th>
+                <th class="tba">TBA</th>
+            </tr>
+        </thead>
+        <tbody id="scheduleBody"></tbody>
+    </table>
+
+   
+</body>
+
+</html>
