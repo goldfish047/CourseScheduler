@@ -1,0 +1,394 @@
+[
+ {
+  "Name": "ARCH100 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "BISC100 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "BISC100 \/01",
+  "AM -- Friday": "Friday AM "
+ },
+ {
+  "Name": "BISC101 \/01 (lec)",
+  "PM -- Thursday": "Thursday PM"
+ },
+ {
+  "Name": "BISC101 \/01 (lab)",
+  "AM -- Friday": "Friday AM "
+ },
+ {
+  "Name": "BPK140 \/01",
+  "AM -- Wednesday": "Wednesday AM"
+ },
+ {
+  "Name": "BUS200 \/01",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "BUS200 \/05 - Subject to Enrolment",
+  "EVE -- Wednesday": "Wednesday EVE"
+ },
+ {
+  "Name": "BUS216 \/03",
+  "PM -- Wednesday": "Wednesday PM"
+ },
+ {
+  "Name": "CA135 \/01",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "CA149 \/01",
+  "PM -- Thursday": "Thursday PM"
+ },
+ {
+  "Name": "CHEM111 \/01    (co-teaching with Calvin)",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "CHEM111 \/01    (co-teaching with James)",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "CMNS110 \/01",
+  "PM -- Monday": "Monday PM"
+ },
+ {
+  "Name": "CMNS110 \/02",
+  "EVE -- Monday": "Monday EVE"
+ },
+ {
+  "Name": "CMPT115 \/01",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "CMPT120 \/01",
+  "PM -- Wednesday": "Wednesday PM"
+ },
+ {
+  "Name": "CMPT120 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "CMPT120 \/02   May Flip to CMPT125",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "CMPT120 \/02   May Flip to CMPT125",
+  "EVE -- Wednesday": "Wednesday EVE"
+ },
+ {
+  "Name": "CRIM101 \/01",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "CRIM135 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "ECON1034 \/01",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "ECON1034 \/02",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "ECON1034 \/03",
+  "EVE -- Wednesday": "Wednesday EVE"
+ },
+ {
+  "Name": "ECON1034 \/04 - Subject to Enrolment",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "ECON1034 \/05 - Subject to Enrolment",
+  "AM -- Wednesday": "Wednesday AM"
+ },
+ {
+  "Name": "ENF100 \/01",
+  "PM -- Monday": "Monday PM"
+ },
+ {
+  "Name": "ENF100 \/01",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "ENGL112 \/01",
+  "EVE -- Tuesday": "Tuesday EVE"
+ },
+ {
+  "Name": "ENGL112 \/02",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "ENGL112 \/03",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "ENGL112 \/05",
+  "EVE -- Wednesday": "Wednesday EVE"
+ },
+ {
+  "Name": "ENGL113 \/01"
+ },
+ {
+  "Name": "ENGL115 \/04",
+  "PM -- Monday": "Monday PM"
+ },
+ {
+  "Name": "ENSC100 \/01",
+  "EVE -- Monday": "Monday EVE"
+ },
+ {
+  "Name": "ENSC105 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "ENSC180 \/01",
+  "EVE -- Thursday": "Thursday EVE"
+ },
+ {
+  "Name": "EVSC100 \/01",
+  "PM -- Wednesday": "Wednesday PM"
+ },
+ {
+  "Name": "GSWS101 \/01",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "HIST102 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "HIST102 \/03 - Subject to Enrolment",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "IAT102 \/01",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "IAT110 \/01",
+  "PM -- Monday": "Monday PM"
+ },
+ {
+  "Name": "INDG101 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "LING111 \/01",
+  "EVE -- Monday": "Monday EVE"
+ },
+ {
+  "Name": "LING200 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "MACM101 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "MACM101 \/03",
+  "EVE -- Tuesday": "Tuesday EVE"
+ },
+ {
+  "Name": "MATH100 \/01",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "MATH100 \/04 - Subject to Enrolment",
+  "PM -- Thursday": "Thursday PM"
+ },
+ {
+  "Name": "MATH100 \/05",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "MATH100 \/08",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "MATH100 \/09",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "MATH151 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "MATH152 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "PHIL105 \/01",
+  "AM -- Wednesday": "Wednesday AM"
+ },
+ {
+  "Name": "PHIL105 \/02 - Subject to Enrolment",
+  "EVE -- Thursday": "Thursday EVE"
+ },
+ {
+  "Name": "PHIL105 \/05",
+  "AM -- Wednesday": "Wednesday AM"
+ },
+ {
+  "Name": "POL100 \/01",
+  "AM -- Wednesday": "Wednesday AM"
+ },
+ {
+  "Name": "POL2XX \/01",
+  "TBA": "TBA"
+ },
+ {
+  "Name": "PSYC100 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "PSYC100 \/03",
+  "PM -- Friday": "Friday PM"
+ },
+ {
+  "Name": "PSYC102 \/01",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "PSYC109 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "REM100 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "STAT203 \/01",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "WL201 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "BUS108 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "INS102 \/01",
+  "AM -- Thursday": "Friday AM",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "MTH099 \/01",
+  "PM -- Monday": "Monday PM"
+ },
+ {
+  "Name": "MTH103 \/01",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "IUW100 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "UNI101 \/01",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "ALC099 \/03",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "ILS101 \/04 - Subject to Enrolment",
+  "PM -- Wednesday": "Wednesday PM"
+ },
+ {
+  "Name": "CNST101 \/01",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "CNST101 \/01",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "CNST101 \/01",
+  "AM -- Wednesday": "Wednesday AM"
+ },
+ {
+  "Name": "CNST101 \/01",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "CNST101 \/02",
+  "PM -- Monday": "Monday PM"
+ },
+ {
+  "Name": "CNST101 \/02",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "CNST101 \/02",
+  "PM -- Wednesday": "Wednesday PM"
+ },
+ {
+  "Name": "CNST101 \/02",
+  "PM -- Thursday": "Thursday PM"
+ },
+ {
+  "Name": "CNST101 Full\/IS\/02 - Subject to Enrolment ",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "CNST101 Full\/IS\/02 - Subject to Enrolment ",
+  "AM -- Tuesday": "Tuesday AM"
+ },
+ {
+  "Name": "CNST101 Full\/IS\/02 - Subject to Enrolment ",
+  "AM -- Wednesday": "Wednesday AM"
+ },
+ {
+  "Name": "CNST101 Full\/IS\/02 - Subject to Enrolment ",
+  "AM -- Thursday": "Thursday AM"
+ },
+ {
+  "Name": "CNST101 Full\/IS\/02 - Subject to Enrolment ",
+  "AM -- Friday": "Friday AM"
+ },
+ {
+  "Name": "CNST101 IS\/02",
+  "PM -- Monday": "Monday PM"
+ },
+ {
+  "Name": "CNST101 IS\/02",
+  "PM -- Tuesday": "Tuesday PM"
+ },
+ {
+  "Name": "CNST101 IS\/02",
+  "PM -- Wednesday": "Wednesday PM"
+ },
+ {
+  "Name": "CNST101 IS\/02",
+  "PM -- Thursday": "Thursday PM"
+ },
+ {
+  "Name": "CNST101 IS\/02",
+  "PM -- Friday": "Friday PM"
+ },
+ {
+  "Name": "INTG100 \/01",
+  "PM -- Wednesday": "Wednesday PM"
+ },
+ {
+  "Name": "INTG100 \/01",
+  "PM -- Friday": "Friday PM"
+ },
+ {
+  "Name": "INTG100 \/04",
+  "AM -- Monday": "Monday AM"
+ },
+ {
+  "Name": "INTG100 \/04",
+  "AM -- Wednesday": "Wednesday AM"
+ }
+]
