@@ -92,13 +92,22 @@ td {
 
 
 
+
+#timetable {
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
 body {
     background: #19161c;
+}
+
+.centerThis {
+
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
-    align-content: center;
 }
 
 .box {
