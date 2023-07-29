@@ -1,0 +1,2162 @@
+[
+ {
+   "Course": "ARCH100",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 61",
+   "Room Number": 2020
+ },
+ {
+   "Course": "BISC100",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2020
+ },
+ {
+   "Course": "BISC101",
+   "Section": "1",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 64",
+   "Room Number": 2020
+ },
+ {
+   "Course": "BPK140",
+   "Section": "1",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 64",
+   "Room Number": 2020
+ },
+ {
+   "Course": "BUS200",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 64",
+   "Room Number": 2020
+ },
+ {
+   "Course": "BUS200",
+   "Section": "5",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2020
+ },
+ {
+   "Course": "BUS216",
+   "Section": "3",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2020
+ },
+ {
+   "Course": "CA135",
+   "Section": "1",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 64",
+   "Room Number": 2020
+ },
+ {
+   "Course": "CA149",
+   "Section": "1",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 63",
+   "Room Number": 2040
+ },
+ {
+   "Course": "CHEM111",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "(co-teaching with Calvin)",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 60",
+   "Room Number": 2040
+ },
+ {
+   "Course": "CHEM111",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "(co-teaching with James)",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2040
+ },
+ {
+   "Course": "CMNS110",
+   "Section": "1",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2020
+ },
+ {
+   "Course": "CMNS110",
+   "Section": "2",
+   "Time": "Monday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2020
+ },
+ {
+   "Course": "CMPT115",
+   "Section": "1",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 63",
+   "Room Number": 2040
+ },
+ {
+   "Course": "CMPT120",
+   "Section": "1",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2040
+ },
+ {
+   "Course": "CMPT120",
+   "Section": "2",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "May Flip to CMPT125",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 63",
+   "Room Number": 2040
+ },
+ {
+   "Course": "CRIM101",
+   "Section": "1",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 61",
+   "Room Number": 2020
+ },
+ {
+   "Course": "CRIM135",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2040
+ },
+ {
+   "Course": "ECON1034",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2120
+ },
+ {
+   "Course": "ECON1034",
+   "Section": "2",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2120
+ },
+ {
+   "Course": "ECON1034",
+   "Section": "3",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 60",
+   "Room Number": 2040
+ },
+ {
+   "Course": "ECON1034",
+   "Section": "4",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2040
+ },
+ {
+   "Course": "ECON1034",
+   "Section": "5",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 63",
+   "Room Number": 2040
+ },
+ {
+   "Course": "ENF100",
+   "Section": "1",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2040
+ },
+ {
+   "Course": "ENGL112",
+   "Section": "1",
+   "Time": "Tuesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2020
+ },
+ {
+   "Course": "ENGL112",
+   "Section": "2",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2220
+ },
+ {
+   "Course": "ENGL112",
+   "Section": "3",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 61",
+   "Room Number": 2220
+ },
+ {
+   "Course": "ENGL112",
+   "Section": "5",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2120
+ },
+ {
+   "Course": "ENGL113",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2230
+ },
+ {
+   "Course": "ENGL115",
+   "Section": "4",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2120
+ },
+ {
+   "Course": "ENSC100",
+   "Section": "1",
+   "Time": "Monday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 60",
+   "Room Number": 2040
+ },
+ {
+   "Course": "ENSC105",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2120
+ },
+ {
+   "Course": "ENSC180",
+   "Section": "1",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2020
+ },
+ {
+   "Course": "EVSC100",
+   "Section": "1",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 55",
+   "Room Number": 2120
+ },
+ {
+   "Course": "GSWS101",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2350
+ },
+ {
+   "Course": "HIST102",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2120
+ },
+ {
+   "Course": "HIST102",
+   "Section": "3",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 54",
+   "Room Number": 2230
+ },
+ {
+   "Course": "IAT102",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2400
+ },
+ {
+   "Course": "IAT110",
+   "Section": "1",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2220
+ },
+ {
+   "Course": "INDG101",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 53",
+   "Room Number": 2220
+ },
+ {
+   "Course": "LING111",
+   "Section": "1",
+   "Time": "Monday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2120
+ },
+ {
+   "Course": "LING200",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 52",
+   "Room Number": 2230
+ },
+ {
+   "Course": "MACM101",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2350
+ },
+ {
+   "Course": "MACM101",
+   "Section": "3",
+   "Time": "Tuesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2040
+ },
+ {
+   "Course": "MATH100",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2430
+ },
+ {
+   "Course": "MATH100",
+   "Section": "4",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2120
+ },
+ {
+   "Course": "MATH100",
+   "Section": "5",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2350
+ },
+ {
+   "Course": "MATH100",
+   "Section": "8",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2120
+ },
+ {
+   "Course": "MATH100",
+   "Section": "9",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 50",
+   "Room Number": 2400
+ },
+ {
+   "Course": "MATH151",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 49",
+   "Room Number": 2430
+ },
+ {
+   "Course": "MATH152",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 48",
+   "Room Number": 2510
+ },
+ {
+   "Course": "PHIL105",
+   "Section": "1",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 62",
+   "Room Number": 2120
+ },
+ {
+   "Course": "PHIL105",
+   "Section": "2",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 60",
+   "Room Number": 2040
+ },
+ {
+   "Course": "PHIL105",
+   "Section": "5",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2220
+ },
+ {
+   "Course": "POL100",
+   "Section": "1",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 53",
+   "Room Number": 2230
+ },
+ {
+   "Course": "PSYC100",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 55",
+   "Room Number": 2220
+ },
+ {
+   "Course": "PSYC100",
+   "Section": "3",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 64",
+   "Room Number": 2020
+ },
+ {
+   "Course": "PSYC102",
+   "Section": "1",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 50",
+   "Room Number": 2400
+ },
+ {
+   "Course": "PSYC109",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 53",
+   "Room Number": 2230
+ },
+ {
+   "Course": "REM100",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2350
+ },
+ {
+   "Course": "STAT203",
+   "Section": "1",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 49",
+   "Room Number": 2430
+ },
+ {
+   "Course": "WL201",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 50",
+   "Room Number": 2400
+ },
+ {
+   "Course": "BUS108",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 48",
+   "Room Number": 2430
+ },
+ {
+   "Course": "INS102",
+   "Section": "1",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2220
+ },
+ {
+   "Course": "MTH099",
+   "Section": "1",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2230
+ },
+ {
+   "Course": "MTH103",
+   "Section": "1",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 55",
+   "Room Number": 2230
+ },
+ {
+   "Course": "IUW100",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 47",
+   "Room Number": 2550
+ },
+ {
+   "Course": "UNI101",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 53",
+   "Room Number": 2510
+ },
+ {
+   "Course": "ALC099",
+   "Section": "3",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 54",
+   "Room Number": 2350
+ },
+ {
+   "Course": "ILS101",
+   "Section": "4",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 54",
+   "Room Number": 2220
+ },
+ {
+   "Course": "CNST101",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 52",
+   "Room Number": 2550
+ },
+ {
+   "Course": "CNST101",
+   "Section": "2",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 54",
+   "Room Number": 2350
+ },
+ {
+   "Course": "CNST101",
+   "Section": "Full/IS2",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 50",
+   "Room Number": 2570
+ },
+ {
+   "Course": "CNST101",
+   "Section": "IS2",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 52",
+   "Room Number": 2400
+ },
+ {
+   "Course": "INTG100",
+   "Section": "1",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 48",
+   "Room Number": 2230
+ },
+ {
+   "Course": "INTG100",
+   "Section": "4",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 49",
+   "Room Number": 3001
+ },
+ {
+   "Course": "ARCH100",
+   "Section": "2",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 44",
+   "Room Number": 2510
+ },
+ {
+   "Course": "GEOG100",
+   "Section": "1",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 54",
+   "Room Number": 2220
+ },
+ {
+   "Course": "BISC102",
+   "Section": "1",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 38",
+   "Room Number": 2510
+ },
+ {
+   "Course": "HSCI160",
+   "Section": "1",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 47",
+   "Room Number": 2350
+ },
+ {
+   "Course": "BUS200",
+   "Section": "2",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 38",
+   "Room Number": 2570
+ },
+ {
+   "Course": "BUS216",
+   "Section": "1",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 50",
+   "Room Number": 2430
+ },
+ {
+   "Course": "BUS251",
+   "Section": "1",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 49",
+   "Room Number": 2510
+ },
+ {
+   "Course": "CA135",
+   "Section": "2",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 44",
+   "Room Number": 2400
+ },
+ {
+   "Course": "CA149",
+   "Section": "2",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2120
+ },
+ {
+   "Course": "CHEM121",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "(co-teaching with Calvin)",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 36",
+   "Room Number": 3001
+ },
+ {
+   "Course": "CHEM121",
+   "Section": "1",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "(co-teaching with James)",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 33",
+   "Room Number": 3001
+ },
+ {
+   "Course": "CMNS110",
+   "Section": "3",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2230
+ },
+ {
+   "Course": "CMPT115",
+   "Section": "2",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 43",
+   "Room Number": 2550
+ },
+ {
+   "Course": "CMPT130",
+   "Section": "1",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 47",
+   "Room Number": 2550
+ },
+ {
+   "Course": "CMPT125",
+   "Section": "1",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 36",
+   "Room Number": 2550
+ },
+ {
+   "Course": "POL151",
+   "Section": "1",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 48",
+   "Room Number": 2350
+ },
+ {
+   "Course": "ECON1054",
+   "Section": "4",
+   "Time": "Tuesday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 30",
+   "Room Number": 2780
+ },
+ {
+   "Course": "ECON1054",
+   "Section": "1",
+   "Time": "Monday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 48",
+   "Room Number": 2780
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "ENGL113",
+   "Section": "3",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 35",
+   "Room Number": 2570
+ },
+ {
+   "Course": "ENGL115",
+   "Section": "3",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 47",
+   "Room Number": 2400
+ },
+ {
+   "Course": "ENGL112",
+   "Section": "4",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "yes - May flip to ENGL115",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 39",
+   "Room Number": 2570
+ },
+ {
+   "Course": "ENGL112",
+   "Section": "6",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 59",
+   "Room Number": 2040
+ },
+ {
+   "Course": "ENGL113",
+   "Section": "2",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 46",
+   "Room Number": 2570
+ },
+ {
+   "Course": "ENGL115",
+   "Section": "5",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 29",
+   "Room Number": 3001
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "INDG201",
+   "Section": "1",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 48",
+   "Room Number": 2350
+ },
+ {
+   "Course": "HIST102",
+   "Section": "2",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2120
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "IAT102",
+   "Section": "2",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 44",
+   "Room Number": 3001
+ },
+ {
+   "Course": "IAT110",
+   "Section": "2",
+   "Time": "Tuesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 25",
+   "Room Number": 2780
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "LING111",
+   "Section": "2",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 47",
+   "Room Number": 2400
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "MACM101",
+   "Section": "2",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 36",
+   "Room Number": 3001
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "MATH100",
+   "Section": "2",
+   "Time": "Monday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 40",
+   "Room Number": 2780
+ },
+ {
+   "Course": "MATH157",
+   "Section": "1",
+   "Time": "Tuesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2120
+ },
+ {
+   "Course": "MATH100",
+   "Section": "6",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 46",
+   "Room Number": 2430
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "MATH151",
+   "Section": "2",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 39",
+   "Room Number": 2430
+ },
+ {
+   "Course": "MATH152",
+   "Section": "2",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2400
+ },
+ {
+   "Course": "PHIL105",
+   "Section": "6",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2220
+ },
+ {
+   "Course": "POL141",
+   "Section": "1",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 50",
+   "Room Number": 2430
+ },
+ {
+   "Course": "PSYC100",
+   "Section": "2",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 44",
+   "Room Number": 2430
+ },
+ {
+   "Course": "PSYC102",
+   "Section": "2",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 38",
+   "Room Number": 2510
+ },
+ {
+   "Course": "PSYC109",
+   "Section": "2",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 49",
+   "Room Number": 2510
+ },
+ {
+   "Course": "STAT203",
+   "Section": "2",
+   "Time": "Tuesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2220
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "COM002",
+   "Section": "1",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 44",
+   "Room Number": 2510
+ },
+ {
+   "Course": "INS102",
+   "Section": "2",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2230
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "ILS101",
+   "Section": "1",
+   "Time": "Thursday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 34",
+   "Room Number": 2780
+ },
+ {
+   "Course": "UNI101",
+   "Section": "2",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "yes - May flip to ILS",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 43",
+   "Room Number": 2510
+ },
+ {
+   "Course": "ALC099",
+   "Section": "4",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 55",
+   "Room Number": 2350
+ },
+ {
+   "Course": "ILS101",
+   "Section": "5",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 36",
+   "Room Number": 2550
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "BUS200",
+   "Section": "3",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 39",
+   "Room Number": 2550
+ },
+ {
+   "Course": "BUS216",
+   "Section": "2",
+   "Time": "Monday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2220
+ },
+ {
+   "Course": "BUS251",
+   "Section": "2",
+   "Time": "Tuesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2230
+ },
+ {
+   "Course": "CA135",
+   "Section": "3",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 41",
+   "Room Number": 2550
+ },
+ {
+   "Course": "CA149",
+   "Section": "3",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 35",
+   "Room Number": 2570
+ },
+ {
+   "Course": "CHEM122",
+   "Section": "1",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 46",
+   "Room Number": 2550
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "CMPT115",
+   "Section": "3",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 38",
+   "Room Number": 2570
+ },
+ {
+   "Course": "CMPT130",
+   "Section": "2",
+   "Time": "Tuesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 55",
+   "Room Number": 2350
+ },
+ {
+   "Course": "CMPT125",
+   "Section": "2",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 34",
+   "Room Number": 3001
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "ENGL112",
+   "Section": "7",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2220
+ },
+ {
+   "Course": "ALAC099",
+   "Section": "1",
+   "Time": "Monday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2230
+ },
+ {
+   "Course": "PHIL105",
+   "Section": "4",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 44",
+   "Room Number": 2570
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "IAT110",
+   "Section": "3",
+   "Time": "Wednesday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 33",
+   "Room Number": 2780
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "MATH232",
+   "Section": "2",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 36",
+   "Room Number": 3001
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "MATH152",
+   "Section": "3",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2400
+ },
+ {
+   "Course": "PHIL105T",
+   "Section": "1",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 50",
+   "Room Number": 2430
+ },
+ {
+   "Course": "PSYC100",
+   "Section": "3",
+   "Time": "Wednesday AM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 34",
+   "Room Number": 2780
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "PSYC201",
+   "Section": "1",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 36",
+   "Room Number": 2570
+ },
+ {
+   "Course": "STAT203",
+   "Section": "3",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2220
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "ECN100",
+   "Section": "1",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 35",
+   "Room Number": 3001
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "INTG100",
+   "Section": "3",
+   "Time": "Tuesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "Non-Credit",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2400
+ },
+ {
+   "Course": "GEOG104",
+   "Section": "1",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 49",
+   "Room Number": 2510
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "BUS251",
+   "Section": "3",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "yes - May flip to BUS216",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 55",
+   "Room Number": 2230
+ },
+ {
+   "Course": "CA135",
+   "Section": "4",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 48",
+   "Room Number": 2550
+ },
+ {
+   "Course": "CA149",
+   "Section": "4",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2230
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "CMNS130",
+   "Section": "2",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2350
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "CMPT135",
+   "Section": "1",
+   "Time": "Monday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2350
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "ECON1054",
+   "Section": "3",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 47",
+   "Room Number": 2570
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "MATH157",
+   "Section": "3",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 55",
+   "Room Number": 2350
+ },
+ {
+   "Course": "MATH151",
+   "Section": "4",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 51",
+   "Room Number": 2400
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "ILSA101",
+   "Section": "2",
+   "Time": "Thursday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 19",
+   "Room Number": 2780
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "CNQS101",
+   "Section": "1",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 36",
+   "Room Number": 3001
+ },
+ {
+   "Course": "ILSA101",
+   "Section": "3",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "yes",
+   "Program": "UTPI",
+   "Instructor Num": "Instructor 46",
+   "Room Number": 3001
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "PHYS1141",
+   "Section": "1",
+   "Time": "Friday PM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 44",
+   "Room Number": 2780
+ },
+ {
+   "Course": "CNQS101",
+   "Section": "2",
+   "Time": "Friday AM",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 35",
+   "Room Number": 2780
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "CMPT120",
+   "Section": "2",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "May Flip to CMPT125",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 61",
+   "Room Number": 2430
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "CHEM121",
+   "Section": "1",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "(co-teaching with Calvin)",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 58",
+   "Room Number": 2400
+ },
+ {
+   "Course": "CHEM121",
+   "Section": "1",
+   "Time": "Thursday EVE",
+   "Subject to Enrolment": "(co-teaching with James)",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 57",
+   "Room Number": 2400
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "",
+   "Section": "",
+   "Time": "",
+   "Subject to Enrolment": "",
+   "Program": "",
+   "Instructor Num": "",
+   "Room Number": null
+ },
+ {
+   "Course": "CMPT135",
+   "Section": "1",
+   "Time": "Wednesday EVE",
+   "Subject to Enrolment": "",
+   "Program": "UTPII",
+   "Instructor Num": "Instructor 56",
+   "Room Number": 2510
+ }
+]
