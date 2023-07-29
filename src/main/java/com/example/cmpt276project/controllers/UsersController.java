@@ -126,6 +126,20 @@ public class UsersController {
         }
     }
 
+    @GetMapping("/schedule")
+    public String schedule(Model model, HttpSession session) {
+        User user = (User) session.getAttribute("session_user");
+        if(user == null){
+            return "redirect:/login";
+        }
+        else{
+            model.addAttribute("user", user);
+            return "users/schedule";
+        }
+
+    }
+
+
     @GetMapping("/course1")
     public String course1(Model model, HttpSession session) {
         User user = (User) session.getAttribute("session_user");
