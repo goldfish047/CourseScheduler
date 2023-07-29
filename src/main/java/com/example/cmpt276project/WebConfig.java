@@ -10,6 +10,6 @@ public class WebConfig implements WebMvcConfigurer {
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         // Add the NoCacheInterceptor to specific routes
-        registry.addInterceptor(new NoCacheInterceptor()).addPathPatterns("/protected", "/availability", "/course1");
+        registry.addInterceptor(new NoCacheInterceptor()).addPathPatterns("/protected", "/availability", "/course1", "/schedule");
     }
 }
