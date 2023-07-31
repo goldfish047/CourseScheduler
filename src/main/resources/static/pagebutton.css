@@ -3,13 +3,13 @@
     transition: transform 0.1s ease;
     border-color: #0c472b;
     border-radius: 10px !important;
-    color: #b7d4ff;
+    color: #b8ffb7;
 }
 
 .my-custom-button:hover {
     transform: scale(1.1);
     box-shadow: 0 0 7px #126a41;
-    color: #e3eeff;
+    color: #e3ffe3;
 }
 
 .my-custom-button.active {
