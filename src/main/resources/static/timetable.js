@@ -182,6 +182,31 @@ fetch('timetable.json')
             filterTimetable();
         });
 
+        const resetButton = document.getElementById('reset-button');
+        resetButton.addEventListener('click', () =>{
+            // Reset all filter checkboxes to their default state
+            filterCheckbox.checked = false;
+            filterCheckbox2.checked = false;
+            filterCheckbox3.checked = false;
+            filterCheckbox4.checked = false;
+            filterCheckbox5.checked = false;
+            filterCheckbox6.checked = false;
+            filterCheckbox7.checked = false;
+            filterCheckbox8.checked = false;
+            filterCheckbox9.checked = false;
+            filterCheckbox10.checked = false;
+            filterCheckbox11.checked = false;
+            filterCheckbox12.checked = false;
+            filterCheckbox13.checked = false;
+            filterCheckbox14.checked = false;
+
+            // Reset search input
+            searchInput.value = '';
+            // Repopulate timetable with the original data
+            populateTimetable(data);
+            // Reset filters
+            filterTimetable();
+        });
 
         const searchInstructors = () => {
             const searchValue = searchInput.value.trim().toLowerCase();
