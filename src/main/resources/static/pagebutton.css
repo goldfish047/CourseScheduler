@@ -1,22 +1,22 @@
 .my-custom-button {
-    background-color: #042453;
+    background-color: #0c472b;
     transition: transform 0.1s ease;
-    border-color: #042453;
+    border-color: #0c472b;
     border-radius: 10px !important;
     color: #b7d4ff;
 }
 
 .my-custom-button:hover {
     transform: scale(1.1);
-    box-shadow: 0 0 7px #2558a3;
+    box-shadow: 0 0 7px #126a41;
     color: #e3eeff;
 }
 
 .my-custom-button.active {
-    background-color: #0d6efd;
+    background-color: #198754;
     color: #fff;
     transform: scale(1.2);
-    box-shadow: 0 0 8px #0d6efd;
+    box-shadow: 0 0 8px #198754;
 }
 
 ::-webkit-scrollbar {
