@@ -171,8 +171,8 @@
 
   <style>
     #map_div {
-      height: 500px;
-      width: 600px;
+      height: 540px;
+      width: 470px;
       border-radius: 15px;
       transform-origin: top;
     }
@@ -250,6 +250,14 @@
     #page_theme_toggle_button i {
       transform: scale(1.5);
     }
+    h3 {
+      text-align: center;
+      font-family: Serif;
+    }
+    p{
+      text-align: center;
+      font-family: Serif;
+    }
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
 
@@ -283,24 +291,29 @@
 <body>
   <div class="wrapper">
     <div class="about">
-      <h2><button id="page_theme_toggle_button"><i class="fas fa-sun" id="sun_icon"></i></button> FRASER INTERNATIONAL
-        COLLEGE</h2>
-      <h3>ABOUT FIC</h3>
+      <h2><button id="page_theme_toggle_button"><i class="fas fa-sun" id="sun_icon"></i></button></h2>
+      <h3>Welcome to FIC</h3>
       <p>
-        Fraser International College (FIC) is located on Simon Fraser University’s (SFU) Burnaby campus, in British
-        Columbia, Canada. FIC enables students from all over the world to reach their potential and goals by offering
-        high-quality education. Our combined letter of offer from FIC & SFU compliments the programs and courses
-        delivered at SFU. Our programs are designed to support students with a direct pathway into SFU second year.
-        FIC’s qualified instructors ensure students have the very best preparation for the demands of higher education
-        in Canada. Each program area offers small class sizes, diverse courses, and volunteering opportunities. All of
-        which combined, maximize the learning opportunities, growth of creativity, and the student’s passion. FIC
-        provides students with the first year courses needed for their transition to SFU when they meet the requirements
-        on their combined letter of offer from FIC having experienced a teaching and learning environment that supports
-        them to harness their talents and achieve their dreams.
+        Fraser International College (FIC) is situated on the Burnaby campus of Simon Fraser University (SFU) 
+        in beautiful British Columbia, Canada. FIC takes pride in delivering world-class education that empowers 
+        students from diverse backgrounds to unlock their potential and achieve their goals.
+        Our partnership with SFU offers a unique and comprehensive learning experience. With a combined 
+        letter of offer from FIC & SFU, our programs seamlessly align with those offered at SFU, providing 
+        students with a direct pathway into the second year. This ensures a smooth transition and continuity 
+        of education for our students.
+      </p><br>
+      <p>
+
+        At FIC, we prioritize academic excellence. Our dedicated and highly qualified instructors are committed 
+        to preparing students for the challenges of higher education in Canada. With small class sizes and a focus 
+        on diverse courses, we foster an environment that maximizes learning opportunities, nurtures creativity, 
+        and ignites students' passions. Choose FIC for an enriching educational experience that goes beyond the 
+        classroom, providing you with the tools and support you need to flourish in your academic pursuits and 
+        shape a promising future.
       </p>
     </div>
     <div class="mapContainer">
-      <h2 id="map">MAP <button id="theme_toggle"><i class="fas fa-sun" id="sun_icon"></i></button></h2>
+      <h2 id="map"><button id="theme_toggle"><i class="fas fa-sun" id="sun_icon"></i></button></h2>
       <div id="map_div"></div>
     </div>
   </div>
