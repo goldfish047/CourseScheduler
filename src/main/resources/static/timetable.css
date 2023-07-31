@@ -96,11 +96,6 @@ td {
  */
 
 
-
-
-
-
-
 #timetable {
     margin-left: auto;
     margin-right: auto;
@@ -165,10 +160,10 @@ label {
 .button-8 {
     background-color: #e1ecf4;
     border-radius: 3px;
-    border: 1px solid #7aa7c7;
-    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    border: 1px solid #909395;
+    box-shadow: rgba(212, 211, 211, 0.7) 0 1px 0 0 inset;
     box-sizing: border-box;
-    color: #39739d;
+    color: #6b6c6c;
     cursor: pointer;
     display: inline-block;
     font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
@@ -190,16 +185,16 @@ label {
   
   .button-8:hover,
   .button-8:focus {
-    background-color: #b3d3ea;
-    color: #2c5777;
+    background-color: #a4a4a4;
+    color: #646464;
   }
   
   .button-8:focus {
-    box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+    box-shadow: 0 0 0 4px rgba(125, 126, 126, 0.15);
   }
   
   .button-8:active {
-    background-color: #a0c7e4;
+    background-color: #909395;
     box-shadow: none;
-    color: #2c5777;
+    color: black;
   }
