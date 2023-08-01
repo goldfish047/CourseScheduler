@@ -85,4 +85,54 @@ class Cmpt276projectApplicationTests {
 		assertEquals("users/availability", availabilityPage);
 	}
 
+	@Test
+	void testSchedulePage() {
+		// Create a user and login
+		User user = new User();
+		user.setName("testttttttt");
+		user.setPassword("A2$aaaaaa");
+
+		// Simulate the login process
+		HttpSession session = new MockHttpSession();
+		session.setAttribute("session_user", user);
+
+		// Set the user attribute in the Model object
+		Model model = new ConcurrentModel();
+		model.addAttribute("user", user);
+
+		// Create an instance of UsersController
+		UsersController usersController = new UsersController();
+
+		// Get the schedule page 
+		String schedulePage = usersController.schedule(model, session);
+
+		// Assert that the page name is returned correct
+		assertEquals("users/schedule", schedulePage);
+	}
+
+	@Test
+	void testProtected(){
+		// Create a user and login
+		User user = new User();
+		user.setName("testttttttt");
+		user.setPassword("A2$aaaaaa");
+
+		// Simulate the login process
+		HttpSession session = new MockHttpSession();
+		session.setAttribute("session_user", user);
+
+		// Set the user attribute in the Model object
+		Model model = new ConcurrentModel();
+		model.addAttribute("user", user);
+
+		// Create an instance of UsersController
+		UsersController usersController = new UsersController();
+
+		// Get the explore courses page
+		String explorePage = usersController.protectedPage(model,session);
+
+		assertEquals("users/protected",explorePage);
+	}
+
+
 }
