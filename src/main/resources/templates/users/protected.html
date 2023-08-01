@@ -113,29 +113,17 @@
         map: map,
         title: '(FIC) Fraser International College'
       });
-
-      // Add event listener to the toggle button
-      var toggleButton = document.getElementById('theme_toggle');
-      toggleButton.addEventListener('click', toggleMapTheme);
-    }
-
-    function toggleMapTheme() {
-      // Check the current theme and switch to the opposite one
-      var currentTheme = map.get('styles') === lightTheme ? darkTheme : lightTheme;
-      map.setOptions({ styles: currentTheme });
-      // Change the button icon based on the selected theme
-      var buttonIcon = document.querySelector('#theme_toggle i');
-      buttonIcon.classList.toggle('fa-sun', map.get('styles') === lightTheme);
-      buttonIcon.classList.toggle('fa-moon', map.get('styles') === darkTheme);
     }
 
     function togglePageTheme() {
       var body = document.body;
+      var currentTheme = map.get('styles') === lightTheme ? darkTheme : lightTheme;
+      map.setOptions({ styles: currentTheme });
       body.classList.toggle('light-theme');
       body.classList.toggle('dark-theme');
       var buttonIcon = document.querySelector('#page_theme_toggle_button i');
-      buttonIcon.classList.toggle('fa-sun', body.classList.contains('light-theme'));
-      buttonIcon.classList.toggle('fa-moon', body.classList.contains('dark-theme'));
+      buttonIcon.classList.toggle('fa-sun', body.classList.contains('light-theme'),map.get('styles') === lightTheme);
+      buttonIcon.classList.toggle('fa-moon', body.classList.contains('dark-theme'),map.get('styles') === darkTheme);
 
       // Save the theme preference to localStorage
       var selectedTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
@@ -148,9 +136,9 @@
 
       // If a theme preference is stored, set the theme and icon accordingly
       if (selectedTheme === 'dark') {
-        document.body.classList.add('dark-theme');
+        document.body.classList.add('dark-theme','darkTheme');
       } else {
-        document.body.classList.add('light-theme');
+        document.body.classList.add('light-theme','lightTheme');
       }
 
       // Set the icon based on the current theme
@@ -166,9 +154,6 @@
     };
   </script>
 
-
-
-
   <style>
     #map_div {
       height: 540px;
@@ -177,7 +162,6 @@
       transform-origin: top;
     }
 
-    #theme_toggle,
     #page_theme_toggle_button {
       background-color: Transparent;
       border: none;
@@ -198,13 +182,11 @@
       margin-left: 2em;
     }
 
-    #theme_toggle .fa-sun,
     #page_theme_toggle_button .fa-sun {
       color: #f7bd3d;
       transition: color 0.3s ease;
     }
 
-    #theme_toggle .fa-moon,
     #page_theme_toggle_button .fa-moon {
       color: #2e3c50;
       transition: color 0.3s ease;
@@ -233,22 +215,27 @@
 
     /* Default light theme */
     body.light-theme {
-      background-color: #ffffff;
+      background-color:  #f9f9f9;
+      color: #000000;
+    }
+
+    body.light-theme .navbar {
+      background-color: #333333;
       color: #000000;
     }
 
     /* Dark theme */
     body.dark-theme {
-      background-color: #19161c;
+      background-color: hsl(223,10%,20%);
+      color: hsl(223,10%,90%);
+    }
+    body.dark-theme .navbar{
+      background-color: #1e1e1e;
       color: #f7f7f7;
     }
 
     body {
       transition: 0.3s ease;
-    }
-
-    #page_theme_toggle_button i {
-      transform: scale(1.5);
     }
     h3 {
       text-align: center;
@@ -261,11 +248,9 @@
     }
   </style>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css">
-
-
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="/login">
       <img style="width:100px; height: 40px;" src="../fic2.png" />
@@ -274,12 +259,12 @@
 
     <div class="btn-group d-flex justify-content-center mt-3" role="group" aria-label="Button Group">
 
+      <button id="page_theme_toggle_button"><i class="fas fa-sun"></i></button>
       <a href="/availability" class="btn btn-success my-custom-button mx-3 ">Availability</a>
       <a href="/schedule" class="btn btn-success my-custom-button mx-3">Schedule</a>
       <a href="https://www.fraseric.ca/academics/academic-planning/course-catalogue/"
         class="btn btn-success my-custom-button mx-3"><span class="bi bi-search me-2"></span>Explore Courses</a>
     </div>
-
 
     <a href="/logout" class="btn btn-danger" role="button" style="margin-left: 10px;">
       <i class="fas fa-sign-out-alt"></i> Logout
@@ -292,7 +277,6 @@
 <body>
   <div class="wrapper">
     <div class="about">
-      <h2><button id="page_theme_toggle_button"><i class="fas fa-sun" id="sun_icon"></i></button></h2>
       <h3>Welcome to FIC</h3>
       <p>
         Fraser International College (FIC) is situated on the Burnaby campus of Simon Fraser University (SFU) 
@@ -314,7 +298,8 @@
       </p>
     </div>
     <div class="mapContainer">
-      <h2 id="map"><button id="theme_toggle"><i class="fas fa-sun" id="sun_icon"></i></button></h2>
+      <h2 id="map">
+      </h2>
       <div id="map_div"></div>
     </div>
   </div>
