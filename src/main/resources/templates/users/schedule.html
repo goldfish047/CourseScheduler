@@ -71,22 +71,23 @@
 
         for (let i = 0; i < rows.length; i++) {
             const cells = rows[i].getElementsByTagName('td');
-            let found = false;
+            let rowVisible = false; 
 
-            for (let j = 0; j < cells.length; j++) {
+            for (let j = 1; j < cells.length; j++) { 
                 const cell = cells[j];
                 if (cell) {
                     const cellValue = cell.textContent || cell.innerText;
                     if (cellValue.toUpperCase().indexOf(filter) > -1) {
-                        found = true;
-                        break;
+                        cell.style.display = ''; 
+                        rowVisible = true; 
+                    } else {
+                        cell.style.display = 'none'; 
                     }
                 }
             }
 
-            rows[i].style.display = found ? '' : 'none';
+            rows[i].style.display = rowVisible ? '' : 'none'; 
         }
     }
 </script>
-
 </html>
