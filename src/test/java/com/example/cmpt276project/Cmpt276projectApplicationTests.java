@@ -1,11 +1,19 @@
 package com.example.cmpt276project;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.fail;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.mock.web.MockHttpSession;
 
+import com.example.cmpt276project.controllers.UsersController;
 import com.example.cmpt276project.models.User;
+
+import org.springframework.ui.ConcurrentModel;
+import org.springframework.ui.Model;
+
+import jakarta.servlet.http.HttpSession;
 
 @SpringBootTest
 class Cmpt276projectApplicationTests {
@@ -51,5 +59,30 @@ class Cmpt276projectApplicationTests {
 		}		
 		
 	}
-	
+
+	@Test
+	void testAvailabilityPage() {
+		// Create a user and login
+		User user = new User();
+		user.setName("testttttttt");
+		user.setPassword("A2$aaaaaa");
+
+		// Simulate the login process
+		HttpSession session = new MockHttpSession();
+		session.setAttribute("session_user", user);
+
+		// Set the user attribute in the Model object
+		Model model = new ConcurrentModel();
+		model.addAttribute("user", user);
+
+		// Create an instance of UsersController
+		UsersController usersController = new UsersController();
+
+		// Get the availability page
+		String availabilityPage = usersController.timetable(model, session);
+
+		// Assert that the page name returned is correct
+		assertEquals("users/availability", availabilityPage);
+	}
+
 }
