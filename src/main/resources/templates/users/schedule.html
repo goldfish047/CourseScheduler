@@ -199,9 +199,8 @@
                     }
                 }
             }
-
-            rows[i].style.display = rowVisible ? '' : 'none'; 
         }
+        headerRow.style.display = (table.getElementsByTagName('tbody')[0].querySelectorAll('tr[style="display: none;"]').length === rows.length) ? 'none' : '';
     }
 </script>
 </html>
