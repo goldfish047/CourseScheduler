@@ -16,14 +16,9 @@
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     border-radius: 1em;
-    width: 100%; /* You can set a specific width here */
+    width: 100%; 
     table-layout: fixed;
-    min-width: 300px; 
     
-}
-.timetableCenter{
-    width: 100%;
-    overflow-x: auto;
 }
 .timetableCenter td, th{
     word-wrap: break-word;

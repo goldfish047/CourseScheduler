@@ -12,10 +12,16 @@
 }
 
 
-table {
+.scheduletableCenter table  {
     font-family: Arial, Helvetica, sans-serif;
     border-collapse: collapse;
     border-radius: 1em;
+    width: 100%; 
+    table-layout: fixed;
+}
+
+.scheduletableCenter td, th{
+    word-wrap: break-word;
 }
 
 th,

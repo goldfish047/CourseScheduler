@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <!-- <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
@@ -11,8 +12,8 @@
     <link rel="stylesheet" th:href="@{../schedule.css}">
     <link rel="stylesheet" th:href="@{../pagebutton.css}">
     <script th:src="@{../schedule.js}" defer></script>
-    <link rel="icon" type="image/x-icon" href="../fav.ico"> 
-    </link>    
+    <link rel="icon" type="image/x-icon" href="../fav.ico">
+    </link>
 </head>
 
 <body>
@@ -26,40 +27,43 @@
                 <a href="/login" class="btn btn-success" role="button">
                     <i class="fas fa-home"></i> Home
                 </a>
-    
+
                 <a href="/logout" class="btn btn-danger" role="button" style="margin-left: 10px;">
                     <i class="fas fa-sign-out-alt"></i> Logout
                 </a>
-    
+
             </div>
         </nav>
-    
+
         <div class="btn-group d-flex justify-content-center mt-3" role="group" aria-label="Button Group">
             <a href="/availability" class="btn btn-success my-custom-button mx-3">Availability</a>
             <a href="/schedule" class="btn btn-success my-custom-button mx-3 active">Schedule</a>
         </div>
-    
+
         <div class="box">
             <form name="search" for="search-input">
-                <input type="text" id="search-input" class="input" name="txt" placeholder="Search" oninput="searchTable()">
+                <input type="text" id="search-input" class="input" name="txt" placeholder="Search"
+                    oninput="searchTable()">
             </form>
             <i class="fas fa-search"></i>
-        </div>  
-    
-      <div class="scheduletableCenter">
+        </div>
+
+    </div>
+
+    <div class="scheduletableCenter">
         <table id="schedule">
             <thead id="header">
                 <tr id="header-row"></tr>
             </thead>
             <tbody id="schedule-body"></tbody>
         </table>
-      </div>  
+    </div>
 
 
 </body>
 
 <script>
-   function searchTable() {
+    function searchTable() {
         const searchInput = document.getElementById('search-input');
         const filter = searchInput.value.toUpperCase();
         const table = document.getElementById('schedule');
