@@ -17,7 +17,7 @@ The primary customers would be the administrative team or staff members responsi
 
 ## 📚STORIES📖
 
-As an administrator, I want to be able to login to the webpage so that I can view the schedule. (complex - 3 points)
+** As an administrator, I want to be able to login to the webpage so that I can view the schedule. (complex - 3 points)
 
 Precondition and triggers: 
 * The administrator’s login credentials have been stored in the database
