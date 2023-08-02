@@ -64,6 +64,8 @@ Acceptance Criteria:
 * Users will be redirected to the success page if registration works. 
 * The inputted credentials will be inputted into the database if the registration is successful.  
 
+
+
 As an administrator, I want to check the availability of the instructors for classes. (complex - 3 points)
 
 Precondition and triggers:
@@ -81,6 +83,7 @@ Acceptance Criteria:
 * Display the schedule of instructor availability within the specified time range when the user clicks the specific period filter boxes.
 
 
+
 As an administrator, I want to check the schedule of courses (epic - 8 points) 
 Precondition and triggers:
 * The user clicks the “Schedule” button on the top of the main schedule page
@@ -95,6 +98,7 @@ Tests:
 Acceptance Criteria:
 * A timetable that displays the course,section and instructor number and specific periods for each day of the week.
 * Display the schedule within the specified category when the specific day or TBA filter and search boxes are applied.
+
 
 
 As an administrator, I want to change the theme of the interface
