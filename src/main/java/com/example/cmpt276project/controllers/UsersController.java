@@ -49,16 +49,6 @@ public class UsersController {
         return "users/addedUser";
     }
 
-    @GetMapping("/view")
-    public String getAllUsers(Model model) {
-        System.out.println("Getting all users");
-        // get all users from database
-        List<User> users = userRepo.findAll();
-        // end of database call
-        model.addAttribute("us", users);
-        return "users/showAll";
-    }
-
     @GetMapping("/")
     public RedirectView process() {
         return new RedirectView("login");
@@ -137,18 +127,6 @@ public class UsersController {
             return "users/schedule";
         }
 
-    }
-
-
-    @GetMapping("/course1")
-    public String course1(Model model, HttpSession session) {
-        User user = (User) session.getAttribute("session_user");
-        if (user == null) {
-            return "redirect:/login";
-        } else {
-            model.addAttribute("user", user);
-            return "users/course1";
-        }
     }
 
 }
