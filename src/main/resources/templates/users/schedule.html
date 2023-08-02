@@ -14,119 +14,118 @@
     <script th:src="@{../schedule.js}" defer></script>
     <link rel="icon" type="image/x-icon" href="../fav.ico"> 
     </link>
-    
     <script>
-        function togglePageTheme() {
-        var body = document.body;
-        body.classList.toggle('light-theme');
-        body.classList.toggle('dark-theme');
-        var buttonIcon = document.querySelector('#page_theme_toggle_button i');
-        buttonIcon.classList.toggle('fa-sun', body.classList.contains('light-theme'));
-        buttonIcon.classList.toggle('fa-moon', body.classList.contains('dark-theme'));
+      function togglePageTheme() {
+      var body = document.body;
+      body.classList.toggle('light-theme');
+      body.classList.toggle('dark-theme');
+      var buttonIcon = document.querySelector('#page_theme_toggle_button i');
+      buttonIcon.classList.toggle('fa-sun', body.classList.contains('light-theme'));
+      buttonIcon.classList.toggle('fa-moon', body.classList.contains('dark-theme'));
 
-        // Save the theme preference to localStorage
-        var selectedTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
-        localStorage.setItem('theme', selectedTheme);
-        }
+      // Save the theme preference to localStorage
+      var selectedTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
+      localStorage.setItem('theme', selectedTheme);
+      }
 
-        window.onload = function () {
-        // Retrieve the theme preference from localStorage
-        var selectedTheme = localStorage.getItem('theme');
+      window.onload = function () {
+      // Retrieve the theme preference from localStorage
+      var selectedTheme = localStorage.getItem('theme');
 
-        // If a theme preference is stored, set the theme and icon accordingly
-        if (selectedTheme === 'dark') {
-            document.body.classList.add('dark-theme');
-        } else {
-            document.body.classList.add('light-theme');
-        }
+      // If a theme preference is stored, set the theme and icon accordingly
+      if (selectedTheme === 'dark') {
+          document.body.classList.add('dark-theme');
+      } else {
+          document.body.classList.add('light-theme');
+      }
 
-        // Set the icon based on the current theme
-        var buttonIcon = document.querySelector('#page_theme_toggle_button i');
-        buttonIcon.classList.toggle('fa-sun', document.body.classList.contains('light-theme'));
-        buttonIcon.classList.toggle('fa-moon', document.body.classList.contains('dark-theme'));
+      // Set the icon based on the current theme
+      var buttonIcon = document.querySelector('#page_theme_toggle_button i');
+      buttonIcon.classList.toggle('fa-sun', document.body.classList.contains('light-theme'));
+      buttonIcon.classList.toggle('fa-moon', document.body.classList.contains('dark-theme'));
 
-        // Add event listener to the page theme toggle button
-        var pageThemeToggleButton = document.getElementById('page_theme_toggle_button');
-        pageThemeToggleButton.addEventListener('click', togglePageTheme);
-        };
-    </script>
-    <style>
-        #page_theme_toggle_button {
-          background-color: Transparent;
-          border: none;
-        }
-    
-        #page_theme_toggle_button .fa-sun {
-          color: #f7bd3d;
-          transition: color 0.3s ease;
-        }
-    
-        #page_theme_toggle_button .fa-moon {
-          color: #2e3c50;
-          transition: color 0.3s ease;
-        }
-    
-        .btn-group {
-          padding-bottom: 18px;
-        }
-    
+      // Add event listener to the page theme toggle button
+      var pageThemeToggleButton = document.getElementById('page_theme_toggle_button');
+      pageThemeToggleButton.addEventListener('click', togglePageTheme);
+      };
+  </script>
+  <style>
+      #page_theme_toggle_button {
+        background-color: Transparent;
+        border: none;
+      }
+  
+      #page_theme_toggle_button .fa-sun {
+        color: #f7bd3d;
+        transition: color 0.3s ease;
+      }
+  
+      #page_theme_toggle_button .fa-moon {
+        color: #2e3c50;
+        transition: color 0.3s ease;
+      }
+  
+      .btn-group {
+        padding-bottom: 18px;
+      }
+  
+      .wrapper {
+        display: grid;
+        grid-template-columns: auto auto;
+        gap: 20px;
+      }
+  
+      .about {
+        padding: 1em;
+      }
+  
+      @media (max-width: 768px) {
         .wrapper {
-          display: grid;
-          grid-template-columns: auto auto;
-          gap: 20px;
+          grid-template-columns: auto;
         }
-    
-        .about {
-          padding: 1em;
-        }
-    
-        @media (max-width: 768px) {
-          .wrapper {
-            grid-template-columns: auto;
-          }
-        }
-    
-    
-        /* Default light theme */
-        body.light-theme {
-          background-color:  #f9f9f9;
-          color: #000000;
-        }
-    
-        body.light-theme .navbar {
-          background-color: #333333;
-          color: #000000;
-        }
+      }
+  
+  
+      /* Default light theme */
+      body.light-theme {
+        background-color:  #f9f9f9;
+        color: #000000;
+      }
+  
+      body.light-theme .navbar {
+        background-color: #333333;
+        color: #000000;
+      }
 
-        body.light-theme .box input {
-            background: rgb(216, 214, 218);
-        }
-    
-        /* Dark theme */
-        body.dark-theme {
-          background-color: hsl(223,10%,20%);
-          color: #000000;
-        }
-        body.dark-theme .navbar{
-          background-color: #1e1e1e;
-          color: #f7f7f7;
-        }
-        body.dark-theme .box input {
-            background: #3b3640;
-        }
-        
-        body {
-          transition: 0.3s ease;
-        }
-        h3 {
-          text-align: center;
-          font-family: Serif;
-        }
-        p{
-          text-align: center;
-          font-family: Serif;
-        }
-      </style>
+      body.light-theme .box input {
+          background: rgb(216, 214, 218);
+      }
+  
+      /* Dark theme */
+      body.dark-theme {
+        background-color: hsl(223,10%,20%);
+        color: #000000;
+      }
+      body.dark-theme .navbar{
+        background-color: #1e1e1e;
+        color: #f7f7f7;
+      }
+      body.dark-theme .box input {
+          background: #3b3640;
+      }
+      
+      body {
+        transition: 0.3s ease;
+      }
+      h3 {
+        text-align: center;
+        font-family: Serif;
+      }
+      p{
+        text-align: center;
+        font-family: Serif;
+      }
+    </style>
 </head>
 
 <body>
@@ -156,8 +155,8 @@
     
         <div class="box">
             <form name="search" for="search-input">
-                <input type="text" id="search-input" class="input" name="txt" placeholder="Search"
-                    oninput="searchTable()">
+              <input type="text" id="search-input" class="input" name="txt" placeholder="Search Course" oninput="searchTable()">
+
             </form>
             <i class="fas fa-search"></i>
         </div> 
@@ -166,9 +165,6 @@
 
       <div class="scheduletableCenter">
         <table id="schedule">
-            <thead id="header">
-                <tr id="header-row"></tr>
-            </thead>
             <tbody id="schedule-body"></tbody>
         </table>
       </div>  
@@ -177,30 +173,50 @@
 </body>
 
 <script>
-   function searchTable() {
-        const searchInput = document.getElementById('search-input');
-        const filter = searchInput.value.toUpperCase();
-        const table = document.getElementById('schedule');
-        const rows = table.getElementsByTagName('tbody')[0].getElementsByTagName('tr');
+  function searchTable() {
+    const searchText = document.getElementById('search-input').value.trim().toLowerCase();
+    const rows = document.querySelectorAll('#schedule-body tr');
 
-        for (let i = 0; i < rows.length; i++) {
-            const cells = rows[i].getElementsByTagName('td');
-            let rowVisible = false;
+    if (searchText === '') {
+      // If the search bar is empty, reset the background color of all cells and show all rows
+      rows.forEach((row) => {
+        const cells = row.querySelectorAll('td');
+        cells.forEach((cell, index) => {
+          if (index === 0) {
+            // Keep the first column (index 0) green
+            cell.style.backgroundColor = '#c8f7c8';
+          } else {
+            cell.style.backgroundColor = 'white';
+          }
+        });
+      });
+    } else {
+      // If the search bar has a search term, perform the search and highlight matched cells
+      rows.forEach((row) => {
+        const cells = row.querySelectorAll('td');
+        let rowMatched = false;
 
-            for (let j = 1; j < cells.length; j++) { 
-                const cell = cells[j];
-                if (cell) {
-                    const cellValue = cell.textContent || cell.innerText;
-                    if (cellValue.toUpperCase().indexOf(filter) > -1) {
-                        cell.style.display = ''; 
-                        rowVisible = true; 
-                    } else {
-                        cell.style.display = 'none'; 
-                    }
-                }
+        cells.forEach((cell, index) => {
+          const courseCell = cell.querySelector('.course');
+          if (courseCell) {
+            const courseName = courseCell.textContent.trim().toLowerCase();
+            if (courseName.includes(searchText)) {
+              rowMatched = true;
+              cell.style.backgroundColor = '#84ff84';
+            } else {
+              cell.style.backgroundColor = 'white';
             }
+          }
+        });
+
+        if (rowMatched) {
+          row.classList.add('matched');
+        } else {
+          row.classList.remove('matched');
         }
-        headerRow.style.display = (table.getElementsByTagName('tbody')[0].querySelectorAll('tr[style="display: none;"]').length === rows.length) ? 'none' : '';
+      });
     }
+  }
 </script>
+
 </html>
