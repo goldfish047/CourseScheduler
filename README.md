@@ -24,87 +24,94 @@ Precondition and triggers:
 * The administrator enters their credentials and hits the login button. 
 
 Actions/post conditions: 
--If login is successful, send user to the main schedule page
--If login is unsuccessful, have the login page display an error telling the user to try again. 
+* If login is successful, send user to the main schedule page
+* If login is unsuccessful, have the login page display an error telling the user to try again. 
 
 Tests: 
--(Test: registerWithValidPass) Input a username and password that are already stored in the database correctly, check if the user is   redirected to the main schedule page. 
--Input an username and password that isn’t stored in the database, check if the login page displays an error. 
+* (Test: registerWithValidPass) Input a username and password that are already stored in the database correctly, check if the user is   redirected to the main schedule page. 
+* Input an username and password that isn’t stored in the database, check if the login page displays an error. 
 
 Acceptance Criteria: 
 
--A login form
--A user cannot submit a login request without filling out all the mandatory fields (username, password) 
--The inputted username and password are compared to the usernames and passwords stored in the database to check for matches. If no -matches are found, an error will be displayed on the login page. 
--User is taken to the schedule page if login is successful. 
--The option to logout on the schedule page 
-
+* A login form
+* A user cannot submit a login request without filling out all the mandatory fields (username, password) 
+* The inputted username and password are compared to the usernames and passwords stored in the database to check for matches. If no -matches are found, an error will be displayed on the login page. 
+* User is taken to the schedule page if login is successful. 
+* The option to logout on the schedule page 
 
 
 As a new administrator, I want to be able to register myself so that I can use the scheduler. (complex - 3 points)
 
 Precondition and triggers:
--The user clicks the “Create an account” button on the login page  
--The user doesn’t have any valid login credentials stored in the database beforehand 
+* The user clicks the “Create an account” button on the login page  
+* The user doesn’t have any valid login credentials stored in the database beforehand 
 
 Actions/post conditions: 
--If registration is successful, the user is redirected to a success page. 
--If the user’s username matches one that's already in the database, the registration page displays an error message to the user. 
--If the user’s inputted password isn’t valid (i.e. it doesn’t have a length >= 8 or it doesn’t contain at least 1 capital letter and 1 -lowercase letter or it doesn’t contain at least 1 symbol), then the registration page displays an error message detailing the proper criteria for a password so the user knows what to fix.  
+* If registration is successful, the user is redirected to a success page. 
+* If the user’s username matches one that's already in the database, the registration page displays an error message to the user. 
+* If the user’s inputted password isn’t valid (i.e. it doesn’t have a length >= 8 or it doesn’t contain at least 1 capital letter and 1 -lowercase letter or it doesn’t contain at least 1 symbol), then the registration page displays an error message detailing the proper criteria for a password so the user knows what to fix.  
 
 Tests: 
--(Test: registerWithInvalidUsername) Attempt to register using a pre-existing username. Check if the register page displays an error -message 
--Register using a valid username and password (i.e. the username isn’t in the database and the password meets the correct criteria). --Check if the user is redirected to the success page. 
--(Test: registerWithInvalidPass) Attempt to register using an invalid password and check if the password validation is working. 
+* (Test: registerWithInvalidUsername) Attempt to register using a pre-existing username. Check if the register page displays an error -message 
+* Register using a valid username and password (i.e. the username isn’t in the database and the password meets the correct criteria). --* Check if the user is redirected to the success page. 
+* (Test: registerWithInvalidPass) Attempt to register using an invalid password and check if the password validation is working. 
 
 Acceptance Criteria: 
 
--A registration form 
--A user cannot register if their username is already in the database.
--A user has to follow the criteria for a valid password when registering (length >=8 and at least 1 capital letter and 1 lowercase -letter, and contains at least 1 symbol) 
--Users will be redirected to the success page if registration works. 
--The inputted credentials will be inputted into the database if the registration is successful.  
+* A registration form 
+* A user cannot register if their username is already in the database.
+* A user has to follow the criteria for a valid password when registering (length >=8 and at least 1 capital letter and 1 lowercase -letter, and contains at least 1 symbol) 
+* Users will be redirected to the success page if registration works. 
+* The inputted credentials will be inputted into the database if the registration is successful.  
 
 As an administrator, I want to check the availability of the instructors for classes. (complex - 3 points)
 
 Precondition and triggers:
--The user clicks the “Availability” button on the top of the main schedule page
+* The user clicks the “Availability” button on the top of the main schedule page
 Actions/post conditions:
--Directs the user to the professor availability page which displays the timetable for professor availability and supports filtering search features by instructor number and specific periods.
+* Directs the user to the professor availability page which displays the timetable for professor availability and supports filtering search features by instructor number and specific periods.
+
 Tests:
--(Test: testAvailabilityPage) Input the instructor number that is already in the database (Excel sheet), check if the timetable filters that certain instructor, and display the schedule for the user.
--Click and apply the specific period filter boxes, and check if the application displays the professor’s availability within the specified time range.
+* (Test: testAvailabilityPage) Input the instructor number that is already in the database (Excel sheet), check if the timetable filters that certain instructor, and display the schedule for the user.
+* Click and apply the specific period filter boxes, and check if the application displays the professor’s availability within the specified time range.
+ 
 Acceptance Criteria:
--A timetable that displays the availability of the instructor.
--Display the schedule of a certain instructor, when the user searches for a certain instructor number.
--Display the schedule of instructor availability within the specified time range when the user clicks the specific period filter boxes.
+* A timetable that displays the availability of the instructor.
+* Display the schedule of a certain instructor, when the user searches for a certain instructor number.
+* Display the schedule of instructor availability within the specified time range when the user clicks the specific period filter boxes.
 
 
 As an administrator, I want to check the schedule of courses (epic - 8 points) 
 Precondition and triggers:
--The user clicks the “Schedule” button on the top of the main schedule page
+* The user clicks the “Schedule” button on the top of the main schedule page
+
 Actions/post conditions:
--Directs the user to the schedule of different courses that support Monday to Friday and TBA filter boxes.
--Support the search of specific instructor numbers and courses.
+* Directs the user to the schedule of different courses that support Monday to Friday and TBA filter boxes.
+* Support the search of specific instructor numbers and courses.
+
 Tests:
--(Test: testSchedulePage) Apply the search filter, and check if the application displays the schedule within the specified category.
+* (Test: testSchedulePage) Apply the search filter, and check if the application displays the schedule within the specified category.
+
 Acceptance Criteria:
--A timetable that displays the course,section and instructor number and specific periods for each day of the week.
--Display the schedule within the specified category when the specific day or TBA filter and search boxes are applied.
+* A timetable that displays the course,section and instructor number and specific periods for each day of the week.
+* Display the schedule within the specified category when the specific day or TBA filter and search boxes are applied.
 
 
 As an administrator, I want to change the theme of the interface
 Precondition and triggers:
--The user clicks the moon/sun button on the navigation bar 
+* The user clicks the moon/sun button on the navigation bar
+
 Actions/Post Conditions:.
--The application interface switches between light and dark mode according to the user's selection, providing a visually appealing appearance.
+* The application interface switches between light and dark mode according to the user's selection, providing a visually appealing appearance.
+
 Tests:
--(Test: testLightModeSwitch) Click the sun button and verify that the application interface changes to light mode.
--(Test: testDarkModeSwitch) Click the moon button again and verify that the application interface changes to dark mode.
+* (Test: testLightModeSwitch) Click the sun button and verify that the application interface changes to light mode.
+* (Test: testDarkModeSwitch) Click the moon button again and verify that the application interface changes to dark mode.
+  
 Acceptance Criteria:
--The FIC Scheduler application supports both light and dark modes.
--When the user clicks the sun/moon button, the application's appearance switches accordingly between light and dark mode.
--The light mode presents a visually clear and bright interface, while the dark mode offers a visually comfortable and eye-friendly interface for users to choose according to their preferences.
+* The FIC Scheduler application supports both light and dark modes.
+* When the user clicks the sun/moon button, the application's appearance switches accordingly between light and dark mode.
+* The light mode presents a visually clear and bright interface, while the dark mode offers a visually comfortable and eye-friendly interface for users to choose according to their preferences.
 
 
 ## 🏆COMPETITIVE ANALYSIS📊
