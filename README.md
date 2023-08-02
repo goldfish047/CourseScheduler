@@ -21,15 +21,19 @@ The primary customers would be the administrative team or staff members responsi
 
 Precondition and triggers: 
 * The administrator’s login credentials have been stored in the database
-* The administrator enters their credentials and hits the login button. 
+* The administrator enters their credentials and hits the login button.
+* When the administrator is done, they hit the logout button.
 
 Actions/post conditions: 
 * If login is successful, send user to the main schedule page
-* If login is unsuccessful, have the login page display an error telling the user to try again. 
+* If login is unsuccessful, have the login page display an error telling the user to try again.
+* When logged out, the user is blocked from going back.
 
 Tests: 
 * (Test: registerWithValidPass) Input a username and password that are already stored in the database correctly, check if the user is   redirected to the main schedule page. 
-* Input an username and password that isn’t stored in the database, check if the login page displays an error. 
+* Input an username and password that isn’t stored in the database, check if the login page displays an error.
+* (test: testLogout) Once the user logs out, check if the user is redirected to the main login page.
+
 
 Acceptance Criteria: 
 
@@ -110,8 +114,8 @@ Actions/Post Conditions:.
 * The application interface switches between light and dark mode according to the user's selection, providing a visually appealing appearance.
 
 Tests:
-* (Test: testLightModeSwitch) Click the sun button and verify that the application interface changes to light mode.
-* (Test: testDarkModeSwitch) Click the moon button again and verify that the application interface changes to dark mode.
+* Click the sun button and verify that the application interface changes to light mode.
+* Click the moon button again and verify that the application interface changes to dark mode.
   
 Acceptance Criteria:
 * The FIC Scheduler application supports both light and dark modes.
@@ -134,7 +138,7 @@ The integration of the Map API with the location of Fraser International College
 **Filtering Search:**
 We will let the users filter and search for specific classes based on the professor’s number as well as courses offered. It allows the user to quickly find relevant classes and gather information about professors teaching those courses or the department offering them. The feature will also allow users to search and filter the instructor’s availability schedule based on specific time periods. Users will be able to select options such as AM, PM, or Evening for a specific day from Monday to Friday. This feature will enable users to easily check the availability of instructors and view the times at which they are teaching. By using this feature, the user can quickly identify the desired time slots and access information about the instructors teaching during those periods. The targeted results provided by the filtering search feature will enhance the user experience. 
 
-**Visualization of Calendar:** 
+**Visualization of Schedule:** 
 The schedule visualization epic aims to create a user-friendly and visually appealing table-based representation of class schedules. It involves arranging room numbers on the top row and times of day on the leftmost column. Each cell within the table displays relevant information, including instructor numbers, class names, and sections. The goal is to provide administrators with a clear and comprehensive view of the entire schedule, allowing easy management and organization of academic activities.
 
 **Light/Dark mode:**
