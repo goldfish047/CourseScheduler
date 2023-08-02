@@ -122,6 +122,54 @@ Acceptance Criteria:
 
 The FIC scheduler application, designed exclusively for administrators, offers several advantages over the goSFU scheduling system used by students. While the goSFU system primarily caters to students' scheduling needs, the FIC scheduler focuses on the specific requirements administrators are responsible for when creating and managing class schedules. Unlike the goSFU system, which is student-oriented, the FIC scheduler provides a secure login system that ensures only authorized administrators can access the application. Moreover, the FIC scheduler takes into account professors' availability and specific classroom requirements when generating schedules, which might be similar to the backend process in goSFU. Similar to goSFU, the schedules are presented in a convenient calendar format, allowing administrators to visualize and manage class schedules efficiently. However, the FIC scheduler displays all classes scheduled for a given day, providing a comprehensive overview, whereas the goSFU system only shows classes selected by students. Administrators also benefit from the ability to filter classes by professor names and departments, enabling efficient management and organization of academic schedules. Overall, the FIC scheduler application caters specifically to the needs of administrators, providing them with a tool for streamlining class scheduling processes within the FIC institution.
 
+## EPICS
+**Schedule Generation:**
+Our web application will generate a schedule upon request using the data collected from the professors. The scheduler will take each professor's availability into account alongside their personal preferences such as back to back classes or only one class per day when generating it. The scheduler will also make sure no overlap occurs in the same time slot when it comes to assigning classes to each room. 
+
+**Integration of Map API:**
+The integration of the Map API with the location of Fraser International College offers instructors and administrators a convenient way to access information about the college’s surroundings, plan their travel routes, and make informed decisions when scheduling classes or appointments. It enhances their awareness of the FIC’s geographic context and assists in optimizing their activities within that area.
+
+
+**Filtering Search:**
+We will let the users filter and search for specific classes based on the professor’s number as well as courses offered. It allows the user to quickly find relevant classes and gather information about professors teaching those courses or the department offering them. The feature will also allow users to search and filter the instructor’s availability schedule based on specific time periods. Users will be able to select options such as AM, PM, or Evening for a specific day from Monday to Friday. This feature will enable users to easily check the availability of instructors and view the times at which they are teaching. By using this feature, the user can quickly identify the desired time slots and access information about the instructors teaching during those periods. The targeted results provided by the filtering search feature will enhance the user experience. 
+
+**Visualization of Calendar:** 
+The schedule visualization epic aims to create a user-friendly and visually appealing table-based representation of class schedules. It involves arranging room numbers on the top row and times of day on the leftmost column. Each cell within the table displays relevant information, including instructor numbers, class names, and sections. The goal is to provide administrators with a clear and comprehensive view of the entire schedule, allowing easy management and organization of academic activities.
+
+**Light/Dark mode:**
+The light/dark mode implements a seamless and versatile user interface that caters to diverse preferences. By offering both light and dark mode options, the application provides users with the freedom to choose their preferred visual experience. When selecting light mode, a bright and clear interface enhances visibility, while dark mode delivers a visually comfortable and eye-friendly display, especially during extended usage or in low-light environments. The goal is to enhance user satisfaction and accessibility, creating a modern and personalized experience that adapts effortlessly to users' needs and enhances the overall usability of the application.
+
+
+## VELOCITY DISCUSSION
+VELOCITY DISCUSSION: 
+
+Iteration 1:
+* Create login form (complex - 3 points) 
+* Logout (easy - 2 points)
+* Create a form for registering a new account which checks password requirements (complex - 3 points)
+* Add explore courses tag linking to FIC’s classes (easy - 2 points)
+* Total story points: 10 points
+
+Iteration 2:
+* Block user back button after logging out (complex - 3 points)
+* Incorporate the map API (epic/feature - 5 points)
+* Create an availability page for instructors based on data (complex - 3 points)
+* Add filters to obtain instructor availability for a specific time and day (complex - 3 points)
+* Create a search function for availability page (complex - 3 points)
+ *Create a homepage (complex - 3 points)
+* Writing tests for current features (complex - 3 points)
+ *Total story points: 23 points
+
+Iteration 3:
+* Generate a schedule from given data (epic - 8 points)
+* Create a schedule page to display the schedule (complex - 3 points)
+* Create a search function for schedule page (complex - 3 points)
+* Add light and dark mode option for all pages (complex - 3 points)
+* Reformat homepage (easy - 2 points)
+* Improve overall web application design (easy - 2 points)
+* Writing tests for current features (complex - 3 points)
+* Total story points: 24 points
+
 
 ## 👥GROUP MEETINGS🗣🔥🔥🔥
 Our group plans to meet twice a week in person after class, and we’re using Discord for communication. On our first meeting on June 6, 2023, we took the opportunity to get to know each other and discussed the requirements for this project.
