@@ -51,15 +51,16 @@
         #page_theme_toggle_button {
           background-color: Transparent;
           border: none;
+          margin-right: 15px;
         }
     
         #page_theme_toggle_button .fa-sun {
           color: #f7bd3d;
           transition: color 0.3s ease;
         }
-    
+
         #page_theme_toggle_button .fa-moon {
-          color: #2e3c50;
+          color: #495d79;
           transition: color 0.3s ease;
         }
     
@@ -102,6 +103,10 @@
         body.light-theme .box input {
             background: rgb(216, 214, 218);
         }
+        body.light-theme .timeRangeBox{
+            background:rgb(216, 214, 218);
+            color:#000000;
+        }
     
         /* Dark theme */
         body.dark-theme {
@@ -116,7 +121,11 @@
             color:#f7f7f7;
         }
         body.dark-theme .box input {
-            background: #3b3640;
+            background: #444445;
+        }
+        body.dark-theme .timeRangeBox{
+            background:#444445;
+            color:#f7f7f7;
         }
         
     
@@ -349,7 +358,7 @@
 
         .table-wrapper {
             flex: 1;
-            margin-right: 20px; 
+            margin-right: 10px; 
         }
         .checkbox-wrapper * {
           box-sizing: border-box;
@@ -454,18 +463,17 @@
         }
         .timeRangeBox {
             position:static;
-            width:240px;
+            width:200px;
             height: 120px;
-            /* top: 250px;
-            right: 250px; */
-            background-color: #f2f2f2;
-            background-color: #ccc;
             padding: 10px;
-            border-radius: 8px;
+            border-radius: 10px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            font-size: 14px;
+            font-size: 15px;
             font-weight:bold;
-            font-family:'Courier New', Courier, monospace;
+            margin-top:20px;
+        }
+        .timeRangeBox p{
+            font-family:Arial, Helvetica, sans-serif;
         }
       </style>
 

@@ -15,117 +15,126 @@
     <link rel="icon" type="image/x-icon" href="../fav.ico"> 
     </link>
     <script>
-      function togglePageTheme() {
-      var body = document.body;
-      body.classList.toggle('light-theme');
-      body.classList.toggle('dark-theme');
-      var buttonIcon = document.querySelector('#page_theme_toggle_button i');
-      buttonIcon.classList.toggle('fa-sun', body.classList.contains('light-theme'));
-      buttonIcon.classList.toggle('fa-moon', body.classList.contains('dark-theme'));
+        function togglePageTheme() {
+        var body = document.body;
+        body.classList.toggle('light-theme');
+        body.classList.toggle('dark-theme');
+        var buttonIcon = document.querySelector('#page_theme_toggle_button i');
+        buttonIcon.classList.toggle('fa-sun', body.classList.contains('light-theme'));
+        buttonIcon.classList.toggle('fa-moon', body.classList.contains('dark-theme'));
 
-      // Save the theme preference to localStorage
-      var selectedTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
-      localStorage.setItem('theme', selectedTheme);
-      }
-
-      window.onload = function () {
-      // Retrieve the theme preference from localStorage
-      var selectedTheme = localStorage.getItem('theme');
-
-      // If a theme preference is stored, set the theme and icon accordingly
-      if (selectedTheme === 'dark') {
-          document.body.classList.add('dark-theme');
-      } else {
-          document.body.classList.add('light-theme');
-      }
-
-      // Set the icon based on the current theme
-      var buttonIcon = document.querySelector('#page_theme_toggle_button i');
-      buttonIcon.classList.toggle('fa-sun', document.body.classList.contains('light-theme'));
-      buttonIcon.classList.toggle('fa-moon', document.body.classList.contains('dark-theme'));
-
-      // Add event listener to the page theme toggle button
-      var pageThemeToggleButton = document.getElementById('page_theme_toggle_button');
-      pageThemeToggleButton.addEventListener('click', togglePageTheme);
-      };
-  </script>
-  <style>
-      #page_theme_toggle_button {
-        background-color: Transparent;
-        border: none;
-      }
-  
-      #page_theme_toggle_button .fa-sun {
-        color: #f7bd3d;
-        transition: color 0.3s ease;
-      }
-  
-      #page_theme_toggle_button .fa-moon {
-        color: #2e3c50;
-        transition: color 0.3s ease;
-      }
-  
-      .btn-group {
-        padding-bottom: 18px;
-      }
-  
-      .wrapper {
-        display: grid;
-        grid-template-columns: auto auto;
-        gap: 20px;
-      }
-  
-      .about {
-        padding: 1em;
-      }
-  
-      @media (max-width: 768px) {
-        .wrapper {
-          grid-template-columns: auto;
+        // Save the theme preference to localStorage
+        var selectedTheme = body.classList.contains('dark-theme') ? 'dark' : 'light';
+        localStorage.setItem('theme', selectedTheme);
         }
-      }
-  
-  
-      /* Default light theme */
-      body.light-theme {
-        background-color:  #f9f9f9;
-        color: #000000;
-      }
-  
-      body.light-theme .navbar {
-        background-color: #333333;
-        color: #000000;
-      }
 
-      body.light-theme .box input {
-          background: rgb(216, 214, 218);
-      }
-  
-      /* Dark theme */
-      body.dark-theme {
-        background-color: hsl(223,10%,20%);
-        color: #000000;
-      }
-      body.dark-theme .navbar{
-        background-color: #1e1e1e;
-        color: #f7f7f7;
-      }
-      body.dark-theme .box input {
-          background: #3b3640;
-      }
-      
-      body {
-        transition: 0.3s ease;
-      }
-      h3 {
-        text-align: center;
-        font-family: Serif;
-      }
-      p{
-        text-align: center;
-        font-family: Serif;
-      }
-    </style>
+        window.onload = function () {
+        // Retrieve the theme preference from localStorage
+        var selectedTheme = localStorage.getItem('theme');
+
+        // If a theme preference is stored, set the theme and icon accordingly
+        if (selectedTheme === 'dark') {
+            document.body.classList.add('dark-theme');
+        } else {
+            document.body.classList.add('light-theme');
+        }
+
+        // Set the icon based on the current theme
+        var buttonIcon = document.querySelector('#page_theme_toggle_button i');
+        buttonIcon.classList.toggle('fa-sun', document.body.classList.contains('light-theme'));
+        buttonIcon.classList.toggle('fa-moon', document.body.classList.contains('dark-theme'));
+
+        // Add event listener to the page theme toggle button
+        var pageThemeToggleButton = document.getElementById('page_theme_toggle_button');
+        pageThemeToggleButton.addEventListener('click', togglePageTheme);
+        };
+    </script>
+    <style>
+        #page_theme_toggle_button {
+          background-color: Transparent;
+          border: none;
+          margin-right:15px;
+        }
+    
+        #page_theme_toggle_button .fa-sun {
+          color: #f7bd3d;
+          transition: color 0.3s ease;
+        }
+
+        #page_theme_toggle_button .fa-moon {
+          color: #495d79;
+          transition: color 0.3s ease;
+        }
+    
+        .btn-group {
+          padding-bottom: 18px;
+        }
+    
+        .wrapper {
+          display: grid;
+          grid-template-columns: auto auto;
+          gap: 20px;
+        }
+    
+        .about {
+          padding: 1em;
+        }
+    
+        @media (max-width: 768px) {
+          .wrapper {
+            grid-template-columns: auto;
+          }
+        }
+    
+    
+        /* Default light theme */
+        body.light-theme {
+          background-color:  #f9f9f9;
+          color: #000000;
+        }
+    
+        body.light-theme .navbar {
+          background-color: #333333;
+          color: #000000;
+        }
+
+        body.light-theme .box input {
+            background: rgb(216, 214, 218);
+        }
+        body.light-theme .timeRangeBox{
+            background:rgb(216, 214, 218);
+            color:#000000;
+        }
+    
+        /* Dark theme */
+        body.dark-theme {
+          background-color: hsl(223,10%,20%);
+          color: #000000;
+        }
+        body.dark-theme .navbar{
+          background-color: #1e1e1e;
+          color: #f7f7f7;
+        }
+        body.dark-theme .box input {
+            background: #444445;
+        }
+        body.dark-theme .timeRangeBox{
+            background:#444445;
+            color:#f7f7f7;
+        }
+        
+        body {
+          transition: 0.3s ease;
+        }
+        h3 {
+          text-align: center;
+          font-family: Serif;
+        }
+        p{
+          text-align: center;
+          font-family: Serif;
+        }
+      </style>
 </head>
 
 <body>
@@ -161,10 +170,36 @@
             <i class="fas fa-search"></i>
         </div> 
 
+        <div class="timeRangeBox">
+          <p>AM : 8:30am - 12:30pm</p>
+          <p>PM : 1:30pm - 5:30pm</p>
+          <p>EVE : 5:45pm - 10:45pm</p>
+        </div>
+        <style>
+          .timeRangeBox {
+            position:static;
+            width:200px;
+            height: 120px;
+            padding: 10px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 15px;
+            font-weight:bold;
+            margin-bottom:10px;
+            margin-top:10px;
+          }
+          .timeRangeBox p{
+              font-family:Arial, Helvetica, sans-serif;
+          }
+        </style>
+
     </div>
 
       <div class="scheduletableCenter">
         <table id="schedule">
+            <thead id="header">
+                <tr id="header-row"></tr>
+            </thead>
             <tbody id="schedule-body"></tbody>
         </table>
       </div>  
@@ -173,8 +208,8 @@
 </body>
 
 <script>
-  function searchTable() {
-    const searchText = document.getElementById('search-input').value.trim().toLowerCase();
+   function searchTable() {
+        const searchText = document.getElementById('search-input').value.trim().toLowerCase();
     const rows = document.querySelectorAll('#schedule-body tr');
 
     if (searchText === '') {
@@ -186,8 +221,7 @@
             // Keep the first column (index 0) green
             cell.style.backgroundColor = '#c8f7c8';
           } else {
-            cell.style.backgroundColor = 'white';
-          }
+            cell.style.backgroundColor = 'white'; }
         });
       });
     } else {
