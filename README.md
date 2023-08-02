@@ -138,7 +138,7 @@ During the sixth meeting held on June 23, 2023, we explored specific requirement
 
 On our seventh meeting on June 28, 2023, we explored different ways to successfully log out the user while also considering the user is not able to access the secured pages when pressing the back button. 
 
-In our eighth meeting on June 30, 2023, we decided to add a tag that links to the course webpage of FIC to make course assigning easier. Furthermore we discussed on ways to increase feature development. 
+In our eighth meeting on June 30, 2023, we decided to add a tag that links to the course webpage of FIC to make course assigning easier. Furthermore we discussed on ways to increase feature development and write tests for current features. 
 
 In our ninth meeting on July 5, 2023, we settled on incorporating the Google Maps API for a convenient way to access information about the college’s surroundings and enhance awareness of the FIC’s geographic context. 
 
