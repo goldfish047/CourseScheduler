@@ -151,3 +151,7 @@ In the 12th meeting held on July 14, 2023, we decided to create a default homepa
 During our 13th meeting held on July 19, 2023, we reviewed possible scheduling algorithms to generate a schedule which accounts for given constraints and instructor time preferences and decided on using python pandas.
 
 In the 14th meeting on July 21, 2023, we finalized a generated schedule and discussed on adding a schedule page which displays all courses offered along with assigned instructor, section and time to help FIC admin view it easily. 
+
+On our 15th meeting on July 26, 2023, we chose on adding a search bar to make the searching process  for classes offered at FIC easier. Furthermore, we explored the light and dark mode feature that caters to diverse preferences and allow users to choose their preferred visual experience. 
+
+In the 16th meeting held on July 28, 2023, we discussed different tests to integrate to verify the functionality of our application. Additionally, we updated numerous design patterns of small features and chose to reformat the homepage, availability and schedule page. 
