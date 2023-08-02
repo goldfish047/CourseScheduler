@@ -85,6 +85,7 @@ Acceptance Criteria:
 
 
 **As an administrator, I want to check the course schedule.** (epic - 8 points) 
+
 Precondition and triggers:
 * The user clicks the “Schedule” button on the top of the main schedule page
 
