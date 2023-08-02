@@ -146,7 +146,6 @@ The light/dark mode implements a seamless and versatile user interface that cate
 
 
 ## VELOCITY DISCUSSION
-VELOCITY DISCUSSION: 
 
 Iteration 1:
 * Create login form (complex - 3 points) 
