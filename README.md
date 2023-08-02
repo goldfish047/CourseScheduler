@@ -160,9 +160,9 @@ Iteration 2:
 * Create an availability page for instructors based on data (complex - 3 points)
 * Add filters to obtain instructor availability for a specific time and day (complex - 3 points)
 * Create a search function for availability page (complex - 3 points)
- *Create a homepage (complex - 3 points)
+* Create a homepage (complex - 3 points)
 * Writing tests for current features (complex - 3 points)
- *Total story points: 23 points
+* Total story points: 23 points
 
 Iteration 3:
 * Generate a schedule from given data (epic - 8 points)
