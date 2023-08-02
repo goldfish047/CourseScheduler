@@ -143,22 +143,21 @@
                     <img style="width:100px; height: 40px;" src="../fic2.png" />
                     <img style="position:relative; bottom:8px; width:150px; height: 60px;" src="../sfu.png" />
                 </a>
-        <button id="page_theme_toggle_button"><i class="fas fa-sun"></i></button>
-        <a href="/login" class="btn btn-success" role="button">
-            <i class="fas fa-home"></i> Home
-        </a>
+                <button id="page_theme_toggle_button"><i class="fas fa-sun"></i></button>
+                <a href="/login" class="btn btn-success" role="button">
+                    <i class="fas fa-home"></i> Home
+                </a>
 
-        <a href="/logout" class="btn btn-danger" role="button" style="margin-left: 10px;">
-            <i class="fas fa-sign-out-alt"></i> Logout
-        </a>
+                <a href="/logout" class="btn btn-danger" role="button" style="margin-left: 10px;">
+                    <i class="fas fa-sign-out-alt"></i> Logout
+                </a>
+            </div>
+        </nav>
 
-    </div>
-</nav>
-
-<div class="btn-group d-flex justify-content-center mt-3" role="group" aria-label="Button Group">
-    <a href="/availability" class="btn btn-success my-custom-button mx-3 active">Availability</a>
-    <a href="/schedule" class="btn btn-success my-custom-button mx-3">Schedule</a>
-</div>
+        <div class="btn-group d-flex justify-content-center mt-3" role="group" aria-label="Button Group">
+            <a href="/availability" class="btn btn-success my-custom-button mx-3 active">Availability</a>
+            <a href="/schedule" class="btn btn-success my-custom-button mx-3">Schedule</a>
+        </div>
 
         <div class="box">
             <form name="search" for="search-input">
@@ -168,8 +167,8 @@
         </div>
 
         <div id="checkbox-container" class="checkbox-wrapper">
-            <table>
-    
+            <div class="table-wrapper">
+                <table>
                 <tr>
                     <td><input type="checkbox" class="inp-cbx" id="filter-checkbox">
                         <label class="cbx" for="filter-checkbox"><span>            
@@ -226,7 +225,6 @@
                             </symbol>
                         </svg>
                     </td>
-    
                 </tr>
                 <tr>
                     <td><input type="checkbox" class="inp-cbx" id="filter-checkbox2">
@@ -332,13 +330,27 @@
                     </td>
                     <td>
                         <button id="reset-button" class="button-8" role="button">Reset Filters</button>
-
                     </td>
                 </tr>
-            </table>
+                </table>
+            </div>
+            <div class="timeRangeBox">
+                <p>AM : 8:30am - 12:30pm</p>
+                <p>PM : 1:30pm - 5:30pm</p>
+                <p>EVE : 5:45pm - 10:45pm</p>
+            </div>
         </div>
     </div>
     <style>
+        #checkbox-container {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .table-wrapper {
+            flex: 1;
+            margin-right: 20px; 
+        }
         .checkbox-wrapper * {
           box-sizing: border-box;
         }
@@ -440,10 +452,22 @@
             transform: scale(0.9);
           }
         }
+        .timeRangeBox {
+            position:static;
+            width:240px;
+            height: 120px;
+            /* top: 250px;
+            right: 250px; */
+            background-color: #f2f2f2;
+            background-color: #ccc;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            font-size: 14px;
+            font-weight:bold;
+            font-family:'Courier New', Courier, monospace;
+        }
       </style>
-    
-
-
 
 <div class="timetableCenter">
     <table id="timetable">

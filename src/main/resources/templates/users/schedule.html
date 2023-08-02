@@ -198,9 +198,11 @@
 
         cells.forEach((cell, index) => {
           const courseCell = cell.querySelector('.course');
-          if (courseCell) {
+          const instructorCell = cell.querySelector('.instructor');
+          if (courseCell && instructorCell) {
             const courseName = courseCell.textContent.trim().toLowerCase();
-            if (courseName.includes(searchText)) {
+            const instructorNum = instructorCell.textContent.trim().toLowerCase();
+            if (courseName.includes(searchText) || instructorNum.includes(searchText)) {
               rowMatched = true;
               cell.style.backgroundColor = '#84ff84';
             } else {
