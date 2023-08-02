@@ -132,6 +132,10 @@ During the third meeting on June 14, 2023, we worked on the UI mock up and discu
 
 In the fourth meeting held on June 16, 2023, we discussed possible APIs we could use for the project. After careful consideration, we finalized the layout of the webpage, ensuring that it meets the project requirements and aligns with our vision.
 
-In the fifth meeting held on June 21, 2023, we reviwed different template choices for the login page and decided on the one which best resonated with FIC. Additionally, we worked on possible password requirements for the login. 
+In the fifth meeting held on June 21, 2023, we reviewed different template choices for the login page and decided on the one which best resonated with FIC. Additionally, we worked on possible password requirements for the login. 
 
 During the sixth meeting held on June 23, 2023, we explored specific requirements to create a new authenticated account. We decided on the username and password requirements to create a secure login. 
+
+On our seventh meeting on June 28, 2023, we explored different ways to successfully log out the user while also considering the user is not able to access the secured pages when pressing the back button. 
+
+In our eighth meeting on June 30, 2023, we decided to add a tag that links to the course webpage of FIC to make course assigning easier. Furthermore we discussed on ways to increase feature development. 
