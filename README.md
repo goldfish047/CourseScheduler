@@ -101,7 +101,7 @@ Tests:
 * (Test: testSchedulePage) Apply the search filter, and check if the application displays the schedule within the specified category.
 
 Acceptance Criteria:
-* A timetable that displays the course,section and instructor number and specific periods for each day of the week.
+* A timetable that displays the course, section and instructor number and specific periods for each day of the week.
 * Display the schedule within the specified category when the specific day or TBA filter and search boxes are applied.
 
 
