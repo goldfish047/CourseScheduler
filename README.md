@@ -34,3 +34,7 @@ In the second meeting on June 8, 2023, we explored different course scheduling w
 During the third meeting on June 14, 2023, we worked on the UI mock up and discussed the layout of the web page. We also agreed that each of us would take turns leading the meetings, ensuring that everyone feels included and involved.
 
 In the fourth meeting held on June 16, 2023, we discussed possible APIs we could use for the project. After careful consideration, we finalized the layout of the webpage, ensuring that it meets the project requirements and aligns with our vision.
+
+In the fifth meeting held on June 21, 2023, we reviwed different template choices for the login page and decided on the one which best resonated with FIC. Additionally, we worked on possible password requirements for the login. 
+
+During the sixth meeting held on June 23, 2023, we explored specific requirements to create a new authenticated account. We decided on the username and password requirements to create a secure login. 
