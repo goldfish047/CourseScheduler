@@ -139,3 +139,11 @@ During the sixth meeting held on June 23, 2023, we explored specific requirement
 On our seventh meeting on June 28, 2023, we explored different ways to successfully log out the user while also considering the user is not able to access the secured pages when pressing the back button. 
 
 In our eighth meeting on June 30, 2023, we decided to add a tag that links to the course webpage of FIC to make course assigning easier. Furthermore we discussed on ways to increase feature development. 
+
+In our ninth meeting on July 5, 2023, we settled on incorporating the Google Maps API for a convenient way to access information about the college’s surroundings and enhance awareness of the FIC’s geographic context. 
+
+During our tenth meeting on July 7, 2023, we discussed on adding an availability page which displays instructor time openings and preferences to help FIC admin view it easily. We also changed some design patterns of small buttons and features. 
+
+On our 11th meeting on July 12, 2023, we explored adding different time filters to make the searching process easier. Furthermore, we finalized on creating a search bar which can provide results based on instructor number. 
+
+In the 12th meeting held on July 14, 2023, we decided to create a default homepage in which the user is directed to after logging in. We updated the UI mockup based on changes to the homepage and availability page. 
