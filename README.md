@@ -1,4 +1,4 @@
-# Group 14 - Proposal
+# Group 14 
 
 ## ✨ABSTRACT🖌
 
