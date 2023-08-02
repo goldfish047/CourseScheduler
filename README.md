@@ -17,7 +17,7 @@ The primary customers would be the administrative team or staff members responsi
 
 ## 📚STORIES📖
 
-** As an administrator, I want to be able to login to the webpage so that I can view the schedule. ** (complex - 3 points)
+**As an administrator, I want to be able to login to the webpage so that I can view the schedule.** (complex - 3 points)
 
 Precondition and triggers: 
 * The administrator’s login credentials have been stored in the database
@@ -40,7 +40,7 @@ Acceptance Criteria:
 * The option to logout on the schedule page 
 
 
-As a new administrator, I want to be able to register myself so that I can use the scheduler. (complex - 3 points)
+**As a new administrator, I want to be able to register myself so that I can use the scheduler.** (complex - 3 points)
 
 Precondition and triggers:
 * The user clicks the “Create an account” button on the login page  
@@ -66,7 +66,7 @@ Acceptance Criteria:
 
 
 
-As an administrator, I want to check the availability of the instructors for classes. (complex - 3 points)
+**As an administrator, I want to check the availability of the instructors for classes.** (complex - 3 points)
 
 Precondition and triggers:
 * The user clicks the “Availability” button on the top of the main schedule page
@@ -84,7 +84,7 @@ Acceptance Criteria:
 
 
 
-As an administrator, I want to check the schedule of courses (epic - 8 points) 
+**As an administrator, I want to check the course schedule.** (epic - 8 points) 
 Precondition and triggers:
 * The user clicks the “Schedule” button on the top of the main schedule page
 
@@ -101,7 +101,7 @@ Acceptance Criteria:
 
 
 
-As an administrator, I want to change the theme of the interface
+**As an administrator, I want to change the theme of the interface.**
 Precondition and triggers:
 * The user clicks the moon/sun button on the navigation bar
 
