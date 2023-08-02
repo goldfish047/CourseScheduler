@@ -101,7 +101,7 @@ Acceptance Criteria:
 
 
 
-**As an administrator, I want to change the theme of the interface.**
+**As an administrator, I want to change the theme of the interface.** (complex - 3 points)
 Precondition and triggers:
 * The user clicks the moon/sun button on the navigation bar
 
