@@ -147,3 +147,7 @@ During our tenth meeting on July 7, 2023, we discussed on adding an availability
 On our 11th meeting on July 12, 2023, we explored adding different time filters to make the searching process easier. Furthermore, we finalized on creating a search bar which can provide results based on instructor number. 
 
 In the 12th meeting held on July 14, 2023, we decided to create a default homepage in which the user is directed to after logging in. We updated the UI mockup based on changes to the homepage and availability page. 
+
+During our 13th meeting held on July 19, 2023, we reviewed possible scheduling algorithms to generate a schedule which accounts for given constraints and instructor time preferences and decided on using python pandas.
+
+In the 14th meeting on July 21, 2023, we finalized a generated schedule and discussed on adding a schedule page which displays all courses offered along with assigned instructor, section and time to help FIC admin view it easily. 
