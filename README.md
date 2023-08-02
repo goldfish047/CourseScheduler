@@ -2,15 +2,14 @@
 
 ## ✨ABSTRACT🖌
 
-The FIC Course Scheduler is a web application designed to simplify the process of scheduling courses for students and staff at FIC. The days of manual scheduling are over as our project aims to provide a convenient and user-friendly solution. It encompasses multiple features that work together to enhance the scheduling experience. The application will allow users to create mock schedules, check for course overlaps, ability to favorite preferred schedules, check credit eligibility and explore different placement options. 
+The FIC Course Scheduler is a web application designed to simplify the process of scheduling courses for students and staff at FIC. The days of manual scheduling are over as our project aims to provide a convenient and user-friendly solution. The application considers the availability of professors, professor preferences and specific classroom requirements when generating schedules. Administrators can easily check instructor availability within the application, allowing for seamless identification of suitable time slots for classes based on professors' schedules.
 
-The FIC Course Scheduler also offers a waitlisting feature, allowing students to join a waitlist for full courses. They are notified promptly if a spot becomes available, to secure their position. The scheduler ensures that courses with specific classroom requirements, like computing labs, are assigned suitable spaces. It also considers the availability of professors for course sections, ensuring instructors are available during the specified time slots. 
+FIC Scheduler provides a comprehensive course schedule and registration status for each day of the week, ensuring administrators have a clear overview of registered courses. Administrators can efficiently manage and organize academic schedules by utilizing flexible filters based on professor numbers, offered courses, and sections. The schedule is displayed in a table format, with room numbers as columns and times as rows, aligning course, instructor, and section information for easy reference.
 
-With the integration of Google Calendar API, users will have the option to seamlessly synchronize their course schedules with their Google Calendar accounts. This will enable students and professors to have a unified view of their academic and personal schedules, allowing for better time management and coordination. 
+Additionally, a map API integration offers a visual reference of the Fraser International College campus on the welcome page, enhancing the user experience. To further enhance user experience, the FIC Scheduler includes both light and dark modes, accommodating diverse user preferences and creating a visually appealing interface. With its user-friendly interface and powerful features, the FIC Scheduler revolutionizes class scheduling, providing administrators with an effective tool for optimized academic planning at Fraser International College.
 
 The target audience for the FIC Course Scheduler includes students and faculty members of FIC. The project aims to make their lives easier by providing a convenient and efficient solution for scheduling courses. By streamlining the scheduling process, the application offers improved organization, reduced conflicts, and enhanced flexibility for students and faculty.
 With a variety of features and a clear scope, the FIC Course Scheduler project provides ample work for a group of five members. Each member can take ownership of specific features, collaborating to build a comprehensive and robust solution. The team can alternate responsibilities if needed, ensuring efficient progress and minimizing confusion.
-
 
 
 
