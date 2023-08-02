@@ -11,6 +11,8 @@ Additionally, a map API integration offers a visual reference of the Fraser Inte
 The target audience for the FIC Course Scheduler includes students and faculty members of FIC. The project aims to make their lives easier by providing a convenient and efficient solution for scheduling courses. By streamlining the scheduling process, the application offers improved organization, reduced conflicts, and enhanced flexibility for students and faculty.
 With a variety of features and a clear scope, the FIC Course Scheduler project provides ample work for a group of five members. Each member can take ownership of specific features, collaborating to build a comprehensive and robust solution. The team can alternate responsibilities if needed, ensuring efficient progress and minimizing confusion.
 
+## CUSTOMER
+The primary customers would be the administrative team or staff members responsible for creating class schedules within Fraser International College. This team would typically consist of administrators, schedulers, or academic coordinators who have the authority and responsibility to manage and organize the class schedules for the institution. 
 
 
 ## 📚STORIES📖
@@ -21,8 +23,7 @@ One of the main stories we considered when planning out the FIC Course Scheduler
 
 ## 🏆COMPETITIVE ANALYSIS📊
 
-There are many features present in other schedulers such as goSFU that can be added on to make the course scheduling process easier and efficient for students and staff. Features that should be considered to be added if time allows include filtering class schedules to student time preferences, allowing the student to filter classes based on if they are full or not and letting the student select which specific lab block they want. Overall these extra features make course scheduling even more seamless and efficient.
-
+The FIC scheduler application, designed exclusively for administrators, offers several advantages over the goSFU scheduling system used by students. While the goSFU system primarily caters to students' scheduling needs, the FIC scheduler focuses on the specific requirements administrators are responsible for when creating and managing class schedules. Unlike the goSFU system, which is student-oriented, the FIC scheduler provides a secure login system that ensures only authorized administrators can access the application. Moreover, the FIC scheduler takes into account professors' availability and specific classroom requirements when generating schedules, which might be similar to the backend process in goSFU. Similar to goSFU, the schedules are presented in a convenient calendar format, allowing administrators to visualize and manage class schedules efficiently. However, the FIC scheduler displays all classes scheduled for a given day, providing a comprehensive overview, whereas the goSFU system only shows classes selected by students. Administrators also benefit from the ability to filter classes by professor names and departments, enabling efficient management and organization of academic schedules. Overall, the FIC scheduler application caters specifically to the needs of administrators, providing them with a tool for streamlining class scheduling processes within the FIC institution.
 
 
 ## 👥GROUP MEETINGS🗣🔥🔥🔥
